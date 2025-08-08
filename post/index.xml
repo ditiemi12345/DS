@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Ditiemi Studio</title>
+        <link>https://ditiemi12345.github.io/DS/post/</link>
+        <description>Recent content in Posts on Ditiemi Studio</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>Ditiemi Studio</copyright>
+        <lastBuildDate>Fri, 08 Aug 2025 13:05:34 +0800</lastBuildDate><atom:link href="https://ditiemi12345.github.io/DS/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>新版本(v1.2)与周总结</title>
+        <link>https://ditiemi12345.github.io/DS/p/%E6%96%B0%E7%89%88%E6%9C%ACv1.2%E4%B8%8E%E5%91%A8%E6%80%BB%E7%BB%93/</link>
+        <pubDate>Fri, 08 Aug 2025 13:05:34 +0800</pubDate>
+        
+        <guid>https://ditiemi12345.github.io/DS/p/%E6%96%B0%E7%89%88%E6%9C%ACv1.2%E4%B8%8E%E5%91%A8%E6%80%BB%E7%BB%93/</guid>
+        <description>&lt;p&gt;&lt;em&gt;（本文章中，Ditiemi Studio将简写为DS）&lt;/em&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;又是一个星期过去啦！这个星期，我们走进了我与《糖豆人》的坎坷回忆，还与大家探讨了神秘的话题&amp;hellip;今天，网站再次迎来了小更新（v1.2）！这篇文章中，不仅会介绍本次小更新的所有内容，也会记录上本网站的周总结！&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;更新-v12&#34;&gt;更新-v1.2
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;功能&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;内容&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;分支调整&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;将“Ditiemi Book”与“Ditiemi Video”两个分支删除，新增分支“Ditiemi Topic”，其中包含小分支“TopicA”与&amp;quot;TopicB&amp;quot;负责相应的内容。详细调整情况请移步至&lt;a class=&#34;link&#34; href=&#34;https://ditiemi12345.github.io/DS/%e5%85%b3%e4%ba%8e/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;关于&lt;/a&gt;。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;阅读时间&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;“阅读时间”功能回归！此次更新优化了阅读时间算法，使阅读时间更精准（阅读时间仅供参考）。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;文章封面&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;如8月4日发布的文章《我与《糖豆人》的故事》的封面图片。此次更新后，在文章发布时，可以插入图片作为封面。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;网页标志&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;您可以在此次更新后的网页标签标题前看到DS的圆形符号。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;其他&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;修复有时点击文章却没有跳转至文章主内容的问题；修复了有时“深色模式”不可用的问题；修改了部分文章内容。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;文章单页计数&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;考虑到网页后续的发展，文章将会越来越多。所以网站加入了“文章单页计数”。在主页下方您将会看到一个页数条，点击相应的页数条将跳转到不同的主页文章，每页至多显示5篇文章。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;周总结82-88&#34;&gt;周总结（8.2-8.8）
+&lt;/h2&gt;&lt;h3 id=&#34;-成长里程碑&#34;&gt;&lt;strong&gt;🚀 成长里程碑&lt;/strong&gt;
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;不亚于上周的成绩，我们很荣幸在这周收获了&lt;strong&gt;170+次的访问&lt;/strong&gt;！感谢大家对网站的大力支持！&lt;/li&gt;
+&lt;li&gt;不计本文章，本周发表了&lt;strong&gt;3篇文章&lt;/strong&gt;！与上周不同，这次发表的文章分别是D-S、D-M与新分支D-TA的各一篇文章！希望新的分支，新的主题，能够让大家眼前一亮呀！&lt;/li&gt;
+&lt;li&gt;文章图片封面的支持让大家能够更快速地了解到文章的主要内容！&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-总结洞察目标&#34;&gt;&lt;strong&gt;💡 总结&amp;amp;洞察&amp;amp;目标&lt;/strong&gt;
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;由于新功能文章图片封面的原因，网页初次加载的速度延长了许多（约2~5秒左右）！我们会在之后努力优化，带给大家更好的浏览体验！希望大家能够谅解！&lt;/li&gt;
+&lt;li&gt;优化后的“搜索”功能仍存在搜索时间不稳定（搜索时间在0.8秒至0.0015秒的区间徘徊），容易造成网页卡顿的问题。如果给您带来不便，我们深表歉意！&lt;/li&gt;
+&lt;li&gt;“&lt;strong&gt;文章浏览数&lt;/strong&gt;”功能还正在研发中，目前在计数方面还有一些问题，正在努力完善，希望大家能够耐心等待&amp;hellip;&lt;/li&gt;
+&lt;li&gt;由于歌曲播放量的原因，在我们的深思熟虑与讨论之后，我们艰难地决定：&lt;strong&gt;Ditiemi Music原创歌曲将会暂时停止发布新的歌曲&lt;/strong&gt;，我&lt;strong&gt;们深表歉意&lt;/strong&gt;！但是Ditiemi Music仍然会承包每月的歌曲推荐，希望大家谅解！&lt;strong&gt;我们真的非常抱歉！&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;您的每一次点击都意义非凡。DS 将坚持&lt;strong&gt;快速响应、持续优化&lt;/strong&gt;的原则，努力为大家奉上更优质的作品！我们下周再见！&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;祝您愉快，&lt;/p&gt;
+&lt;p&gt;Ditiemi Studio&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>DitiemiMusic每月音乐推荐-7月(2025)</title>
+        <link>https://ditiemi12345.github.io/DS/p/ditiemimusic%E6%AF%8F%E6%9C%88%E9%9F%B3%E4%B9%90%E6%8E%A8%E8%8D%90-7%E6%9C%882025/</link>
+        <pubDate>Wed, 06 Aug 2025 20:20:54 +0800</pubDate>
+        
+        <guid>https://ditiemi12345.github.io/DS/p/ditiemimusic%E6%AF%8F%E6%9C%88%E9%9F%B3%E4%B9%90%E6%8E%A8%E8%8D%90-7%E6%9C%882025/</guid>
+        <description>&lt;img src="https://ditiemi12345.github.io/DS/p/ditiemimusic%E6%AF%8F%E6%9C%88%E9%9F%B3%E4%B9%90%E6%8E%A8%E8%8D%90-7%E6%9C%882025/m7.png" alt="Featured image of post DitiemiMusic每月音乐推荐-7月(2025)" /&gt;&lt;p&gt;&lt;em&gt;本文歌曲信息以网易云音乐为准。&lt;/em&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;欢迎来到7月的音乐推荐！我会在7月我听取的所有歌曲中挑选前3首我认为最好听的歌曲以及另外2名我认为还不错，比较出众的歌曲。希望大家能够喜欢！&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;1人マニア人狂热症&#34;&gt;#1《人マニア》（人狂热症）
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;歌手：原口沙輔/重音テト | 专辑：《人マニア》&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;当第一声撕裂般的电子脉冲撞进耳膜，别急着摘下耳机，那正是它那&lt;strong&gt;爽脑&lt;/strong&gt;鼓点的开始。它并不温柔，用重音テト沙哑的声线刮擦你的神经，&lt;strong&gt;像生锈的钥匙捅进锁芯&lt;/strong&gt;。旋律复杂且多变，但是又死死卡住了每个点，恰到好处的节奏让人“&lt;strong&gt;上瘾&lt;/strong&gt;”。不管是尖叫声，还是奇怪的采样，都让人&lt;strong&gt;爱不释手&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;精选歌词：“金で殺して、愛を買うね。すまんね。”&lt;/p&gt;
+&lt;p&gt;网易云音乐：🔗&lt;a class=&#34;link&#34; href=&#34;https://music.163.com/#/song?id=2074759832&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;点击这里即可收听！&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;2逃&#34;&gt;#2《逃！》
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;歌手：乐正绫/VO大自然 | 专辑：《逃！（AI＆V3）》&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;也许这首歌恰恰就是我们的真实写照。有的人听歌，有的人却是在&lt;strong&gt;照镜子&lt;/strong&gt;。它把原声家庭的情况描写的&lt;strong&gt;淋漓尽致&lt;/strong&gt;…绝望和痛苦感的重叠在心中不停呐喊，它是孩子们内心的真实写照——&lt;strong&gt;逃&lt;/strong&gt;！但是还是“逃不掉”，我们自己根本没办法生存，物质上必须&lt;strong&gt;依赖家庭&lt;/strong&gt;。我们明白他们有多辛苦，他们过得有多难，但越明白这些就越痛苦……&lt;/p&gt;
+&lt;p&gt;精选歌词：“都是我的错，因为你们爱着我。都是我的错，因为你们生下我”&lt;/p&gt;
+&lt;p&gt;网易云音乐：🔗&lt;a class=&#34;link&#34; href=&#34;https://music.163.com/#/song?id=2621707544&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;点击这里即可收听！&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;3即将到达&#34;&gt;#3《即将到达》
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;歌手：小杨Johnson | 专辑：《即将到达》&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;歌词叙述了一段看似普通的人生。表层是留学生活的窘迫，深层则是&lt;strong&gt;亲情的羁绊&lt;/strong&gt;。姥姥那句带着方言的“吃饱了就不想家了”，以朴素哲理化解出国留学的孤独，成为全曲精神支点。&lt;strong&gt;“风中的芦苇花”&lt;/strong&gt; &lt;strong&gt;“和家乡一样的烟火”&lt;/strong&gt; 等意象就像是我自己，弯腰拾起生活缝隙里的面包屑与眼泪，将它们&lt;strong&gt;淬炼成星光&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;精选歌词：“从故乡吹来的风，让我别再回头，窗外的景色让我忘掉我身上的痛。从故乡吹来的风，告诉我不是在做梦，我知道新的春天它会拉紧，我的手&amp;hellip;”&lt;/p&gt;
+&lt;p&gt;网易云音乐：🔗&lt;a class=&#34;link&#34; href=&#34;https://music.163.com/#/song?id=2699328982&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;点击这里即可收听！&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;4バカみたいに像个白痴一样&#34;&gt;*4《バカみたいに》（像个白痴一样）
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;歌手：柿崎ユウタ | 专辑：《バカみたいに》&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;以“失恋后的自我解构”为核心，刻画着在回忆中沉溺、痛斥自身痴情的矛盾心理。它承认了“愚蠢”实为对深情无果的无奈接纳，让“愚蠢”成为当代人消化痛苦的仪式。**终究在自嘲中确认：人类敢于承认“愚蠢”，或许才是最高级的清醒。**这或许就是它教会我们的事——愚蠢。&lt;/p&gt;
+&lt;p&gt;精选歌词：“バカみたいに、ほら愛してたくせに、嘘ばっかついて I love you、それは何十回何百何千のお気の毒。”&lt;/p&gt;
+&lt;h2 id=&#34;5参考答案略&#34;&gt;*5《参考答案：略》
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;歌手：诗岸/wukino | 专辑：《参考答案：略》&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这首歌我主要是喜欢在它的歌词，而并不是歌曲。歌词时而舒缓，仿佛在娓娓道来一段&lt;strong&gt;内心独白&lt;/strong&gt;；时而稍显急促，似是内心情绪的涌动与挣扎。歌词中可能没有直接给出明确的答案，却通过细腻而隐晦的文字，引导听众去审视自己的生活、经历和内心世界，每个人都能根据自身的阅历，从歌词中解读出&lt;strong&gt;专属于自己的含义&lt;/strong&gt;，正如标题《参考答案：略》&lt;/p&gt;
+&lt;p&gt;精选歌词：“再一次谈到自己的年龄，前缀是「我才」还是「我已经」，只是想望着车窗外风景，却被告知下站靠停。”&lt;/p&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;以上五首歌曲就是我评选出的“7月推荐歌曲”啦！希望大家能够喜欢。祝大家通过音乐，每一天都过得开开心心！如有对本章中的歌曲/评价有任何建议、意见或者是不满意，随时欢迎将内容发送至邮箱ditiemi622@outlook.com！我们期待您的反馈！&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;祝您愉快，&lt;/p&gt;
+&lt;p&gt;Ditiemi Studio&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>DitiemiSpeech我与《糖豆人》的故事</title>
+        <link>https://ditiemi12345.github.io/DS/p/ditiemispeech%E6%88%91%E4%B8%8E%E7%B3%96%E8%B1%86%E4%BA%BA%E7%9A%84%E6%95%85%E4%BA%8B/</link>
+        <pubDate>Mon, 04 Aug 2025 22:33:36 +0800</pubDate>
+        
+        <guid>https://ditiemi12345.github.io/DS/p/ditiemispeech%E6%88%91%E4%B8%8E%E7%B3%96%E8%B1%86%E4%BA%BA%E7%9A%84%E6%95%85%E4%BA%8B/</guid>
+        <description>&lt;img src="https://ditiemi12345.github.io/DS/p/ditiemispeech%E6%88%91%E4%B8%8E%E7%B3%96%E8%B1%86%E4%BA%BA%E7%9A%84%E6%95%85%E4%BA%8B/fallguys.png" alt="Featured image of post DitiemiSpeech我与《糖豆人》的故事" /&gt;&lt;p&gt;&lt;em&gt;本文中《糖豆人》将简称为FG（因为糖豆人的英文是Fall Guys）&lt;/em&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;从2021年12月6日我在Steam平台购入了《糖豆人》开始算起，到今天（2025年8月4日），糖豆人已经陪伴了我1337天了。这一路我从初尝时的满心欢喜，到几个月后的略感无聊，再到一年后的无趣退坑，过了一会儿又回坑，再退坑，又回坑&amp;hellip;&amp;hellip;用一个词语来概括，我和《糖豆人》的时光是真的&lt;strong&gt;极为坎坷&lt;/strong&gt;的。所以今天我想借此机会向大家讲讲&lt;strong&gt;我和《糖豆人》的故事&lt;/strong&gt;，希望大家能够喜欢。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;初识--猜你喜欢的偶然相遇&#34;&gt;🚩初识 · “猜你喜欢”的偶然相遇
+&lt;/h2&gt;&lt;p&gt;&lt;em&gt;「一行行代码推来一粒会跌倒的糖豆，我却尝出了整个宇宙的摇晃。」&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;我知道FG这个游戏是在2020年的九月份左右。当时真的很巧，是我刚打开bilibili的时候看到主页上推荐给我的FG的游戏广告，不管是玩法还是画风，&lt;strong&gt;一下子就把我吸引住了&lt;/strong&gt;。不过那时候我经济能力有待提升，所以并没有亲自玩到游戏，只是看别人直播玩。结果越看就觉得（游戏）越有趣，很像是以前的一个综艺叫做”男生女生向前冲“的&lt;strong&gt;闯关游戏&lt;/strong&gt;。我个人对这种”障碍赛“的玩法还是很喜欢的，另外FG还有生存赛，抓尾巴，鬼抓人等等，甚至还有团队合作赛。总之，类型很多很多，&lt;strong&gt;非常吸引人&lt;/strong&gt;。目前FG的官网是这么说的， ”《糖豆人》是一款大规模多人游玩的派对乱斗游戏，你可以和好友一起，在夸张的障碍赛道上蠢萌前行，或打造出你自己的混乱赛道，来与社群进行分享。“（&lt;a class=&#34;link&#34; href=&#34;https://www.fallguys.com/zh-CN&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;点击此处进入FG官方网站&lt;/a&gt;）。很清楚记得当时每次FG赛季更新，我都想&lt;strong&gt;把每一个更新的细节都挖出来&lt;/strong&gt;的那种感觉。&lt;/p&gt;
+&lt;p&gt;后来到了21年，FG在不断成长，我也在空闲时间不断关注着。最终那天来到了&amp;hellip;12月6日，我拥有了自己的第一台电脑，下载了Steam，购入了我&lt;strong&gt;人生中第一款&lt;/strong&gt;电脑游戏——《糖豆人》。&lt;/p&gt;
+&lt;h2 id=&#34;独占--苦糖般的早鸟勋章&#34;&gt;✨独占 · 苦糖般的早鸟勋章
+&lt;/h2&gt;&lt;p&gt;&lt;em&gt;「他们欢呼着新时代的开启，而我守护着旧日荣光的残影。」&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;当时我购入FG时糖豆人已走到&lt;strong&gt;第6赛季&lt;/strong&gt;，是派对主题。说真的，也许是我的心理原因，派对主题相较于以前的赛季主题（比如丛林，冬季，中世纪等），更能让我体会到糖豆&lt;strong&gt;一起向着终点奔跑的热闹&lt;/strong&gt;。那几个月里，我对这款游戏能说是”&lt;strong&gt;热恋&lt;/strong&gt;“。&lt;/p&gt;
+&lt;p&gt;不幸的是，FG在2022年6月21日迎来了多平台更新，同时游戏从付费购买变为&lt;strong&gt;免费游玩&lt;/strong&gt;。我相信，对于所有在Steam上购买本游戏的人都会觉得自己是个”&lt;strong&gt;大冤种&lt;/strong&gt;“，作为对付费玩家的补偿，游戏官方送给了玩家们价值29块的第七赛季季票（类似于付费通行证）和一些皮肤（游戏本体54块）。当我听说了要免费之后，心中真的像是&lt;strong&gt;打翻了五味瓶&lt;/strong&gt;，既有”冤“的苦，也有第一次亲自迎接赛季更新的激动，也有对糖豆人放不下的热爱。就像是给你吃了一个沾满了苦粉的糖豆，&lt;strong&gt;味道杂乱无章&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;另外游戏不仅免费，也迎来了许多更新。比如新货币（星耀币）的加入，这种货币需要用钱来购买，用该货币可以购买皮肤、季票等。以前是游戏付费但游戏内无付费内容，现在是游戏免费但游戏内有付费内容。但是我&lt;strong&gt;从没有完全放弃过糖豆人&lt;/strong&gt;，Steam里那张付款截图，是我与糖豆人签过的，&lt;strong&gt;最心甘情愿的不平等条约&lt;/strong&gt;。&lt;/p&gt;
+&lt;h2 id=&#34;狂欢--糖豆人的免费之路&#34;&gt;🎪狂欢 · 糖豆人的免费之路
+&lt;/h2&gt;&lt;p&gt;&lt;em&gt;「当人潮吞没我的勋章，才懂热爱不是占有，是目送糖纸飞向太阳。」&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;免费之后，果然不出所料，很多很多新的玩家涌入了FG，虽然心中还有着苦味，但是还是被我的兴奋压过了。记得是2022年6月21日的下午六点，我不停的刷新页面，就为了看到”开始游戏“的字样变为”更新“，&lt;strong&gt;卡着点更新完打开了游戏&lt;/strong&gt;。我也算是第一次体验到了心中最热爱的游戏更新了新地图新元素新赛季的感觉！&lt;/p&gt;
+&lt;p&gt;大量新玩家的涌入成功让FG变得更加热闹了。当我看着60位糖豆从起跑线奔起来时，真的很激动。大部分新玩家让身为有一些经验的我突然感觉游戏变得极为简单，一局游戏中大部分都是新玩家，有经验的并没有几个。于是游戏变得&lt;strong&gt;突然简单了许多&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;后来我才发现，吸引我的渐渐不是游戏的玩法，而是变为了游戏的每一次更新。那种&lt;strong&gt;新鲜感&lt;/strong&gt;成为了当时糖豆人对我&lt;strong&gt;唯一的吸引之处&lt;/strong&gt;。&lt;/p&gt;
+&lt;h2 id=&#34;冬眠--在永不日落的游乐场拾荒&#34;&gt;🌫️冬眠 · 在永不日落的游乐场拾荒
+&lt;/h2&gt;&lt;p&gt;&lt;em&gt;「他们按下暂停键的瞬间，我们成了卡在通关动画里的幽灵。」&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;FG从第七赛季又走到了第十赛季。这段时间里其实跟以前的赛季更新差不多，同样是添加新元素，新主题等等内容。但是在第十赛季的更新中，推出了“&lt;strong&gt;嗨皮秀&lt;/strong&gt;”（类似关卡编辑器——可以自己搭建关卡），当时我很激动，自己建关卡不是仅仅一天两天的梦想，到那天终于实现了！可是那时候限制很多，比如不能放很多的元素，元素不能重叠等等。我以为糖豆人在此之后会逐渐又热起来，不过现实却恰恰相反——FG官方（从23年5月3日起）至今没有更新除“嗨皮秀”道具以外的任何东西，没有更新新赛季，没有更新新元素，没有更新新地图&amp;hellip;用一个网络词汇，&lt;strong&gt;FG的官方好像是开始“摆烂”了&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;从那时开始，我对FG的热爱就&lt;strong&gt;渐渐淡下来&lt;/strong&gt;了，不再做任务升级免费的通行证，不再用嗨皮秀制作自己的关卡，甚至不再打开游戏看看限时的活动。可FG在我心里似乎还有一口气，很难形容这种感觉，就像是有时你还能想到，但却&lt;strong&gt;提不起任何兴趣&lt;/strong&gt;。&lt;/p&gt;
+&lt;h2 id=&#34;余烬--热带浪潮冲不淡的电子包浆结尾&#34;&gt;🕯️余烬 · 热带浪潮冲不淡的电子包浆（结尾）
+&lt;/h2&gt;&lt;p&gt;我并没有彻底放弃糖豆人，因为我知道，我仍然热爱着那种回不去的快乐，我仍然热爱着看到新元素的新鲜感，我还仍然热爱着&amp;hellip;&lt;strong&gt;那个曾经的我&lt;/strong&gt;。每次的卸载就像是假死，当我极度无聊时，安装按钮成了我的呼吸机。服务器因人数太多的卡顿，造成的却是回忆的逐渐模糊。无意间翻到第一次拿到第一的截图，我才意识到——&lt;strong&gt;其实原来有些程序，从未真正退出运行。我们依赖游戏，原来是为了抢救那个愿意快乐的自己。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;今天是我的糖豆人&lt;strong&gt;运行时长900小时&lt;/strong&gt;的纪念日。糖豆人，我们早该在免费狂欢后就诀别，可谁让你成了我硬盘里唯一会发芽的骨灰盒？&lt;/p&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;感谢您看完了本篇文章！希望您能够坚守热爱的东西，尽管&amp;hellip;ta并不是那么优秀！&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;祝您愉快，&lt;/p&gt;
+&lt;p&gt;Ditiemi Studio&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>DitiemiTopicA如果镜子里的世界是真实的，而我们才是倒影？</title>
+        <link>https://ditiemi12345.github.io/DS/p/ditiemitopica%E5%A6%82%E6%9E%9C%E9%95%9C%E5%AD%90%E9%87%8C%E7%9A%84%E4%B8%96%E7%95%8C%E6%98%AF%E7%9C%9F%E5%AE%9E%E7%9A%84%E8%80%8C%E6%88%91%E4%BB%AC%E6%89%8D%E6%98%AF%E5%80%92%E5%BD%B1/</link>
+        <pubDate>Fri, 01 Aug 2025 20:25:16 +0800</pubDate>
+        
+        <guid>https://ditiemi12345.github.io/DS/p/ditiemitopica%E5%A6%82%E6%9E%9C%E9%95%9C%E5%AD%90%E9%87%8C%E7%9A%84%E4%B8%96%E7%95%8C%E6%98%AF%E7%9C%9F%E5%AE%9E%E7%9A%84%E8%80%8C%E6%88%91%E4%BB%AC%E6%89%8D%E6%98%AF%E5%80%92%E5%BD%B1/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;你有没有对着镜子自恋、做鬼脸，或者突然发现自己表情很傻的时候？想象一下，如果镜子里的那位才是真正的“你”，而我们每天忙忙碌碌，只不过是人家在玻璃那头活动时投下的一个可怜的倒影……这事儿光想想就觉得又诡异又搞笑！&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;肉身与主权的彻底颠倒&#34;&gt;🎯肉身与主权的彻底颠倒！
+&lt;/h2&gt;&lt;p&gt;以前我们觉得是我们控制镜子中的人。现在倒是反过来了，是镜子里那个“我们”的一举一动，直接决定了我们这个倒影能做什么。我觉得吧&amp;hellip;&lt;strong&gt;有点憋屈&lt;/strong&gt;！&lt;/p&gt;
+&lt;p&gt;举个形象的例子。你一大早赶火车，你想飞快地刷牙洗脸，但镜子里那位“本尊”却恰恰是个慢性子，或者正在发呆。你一开始洗漱，动作就快不起来，&lt;strong&gt;急得跳脚&lt;/strong&gt;也没用，因为“你”的动作完全取决于那位“本尊”的速度。是不是够急？如果你有一场重要的演讲。你精心准备，对着镜子练习自己的微笑和发言。结果关键时刻，镜子里的“本尊”可能紧张得表情僵硬，或者打了个不合时宜的喷嚏。你这边就只能被迫呈现同样的&lt;strong&gt;窘态&lt;/strong&gt;，对别人解释的时候你说：“不是我！是镜子里那位搞砸的！”——&lt;strong&gt;谁会信&lt;/strong&gt;？&lt;/p&gt;
+&lt;h2 id=&#34;现实不再现实物理秒变雾里&#34;&gt;📦现实不再“现实”，物理秒变“雾里”？
+&lt;/h2&gt;&lt;p&gt;我们知道，光线从光源发出，照射到我们身上，再反射到镜子上，最后反射进入我们的眼睛形成镜像。但如果镜子里是主体，那光线该如何是好？难道是主体在镜子那头反射光，光随之穿透镜面，最后投射到我们这个“影子世界”？这完全&lt;strong&gt;颠覆了物理的光学基础&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;如果你在纸上写个“OK”举到镜子前，你会发现镜子里显示的是左右颠倒的“KO”。但如果镜子里是本体世界，那意味着他们写的“OK”本身就是反的？他们看我们写的“OK”反而是正的？他们的书本、路标、屏幕显示都得是反的？&lt;strong&gt;真的是太奇怪了&lt;/strong&gt;，如果是你，你能看懂他们写的字吗？又比如你被吓一跳，本能地往后一缩。是镜中的本体先感知到危险做出的反应，然后使你同步后缩？还是你产生了“被吓到”的意识，而镜中早就预测到你会在这个时间被吓到，所以在这个时间假装“被吓到”？这种&lt;strong&gt;因果关系已经全部混乱了&lt;/strong&gt;！&lt;/p&gt;
+&lt;p&gt;更可怕的设想是，镜子那边的本体是否具有主观思想，能故意操控我们？比如你在演讲时，镜中“本体”却故意做鬼脸、打瞌睡，导致你在众目睽睽下失控出丑。你却完全无能为力，因为你只是被动投影，你又会怎么联展想象呢？&lt;/p&gt;
+&lt;h2 id=&#34;一些有趣的疑问&#34;&gt;😕一些有趣的疑问&amp;hellip;&amp;hellip;
+&lt;/h2&gt;&lt;p&gt;如果“我”只是镜中人的影子，那“我”的思维、意识、情感是独立的吗？还是仅仅是镜中“本体”思维的粗糙复制或投射？如果“本体”死了，“我”这个影子会立刻消失吗？如果镜子碎了、脏了、或者被遮住了，“我”这个影子是模糊了、扭曲了，还是直接“没”了？擦镜子是不是相当于在给“本体”做清洁？有没有办法和镜子里的“本体”沟通？如果沟通成功，他们会承认我们的存在吗？我们这个世界的物理规则是独立的，还是完全由镜中世界的规则模拟出来的？如果是后者，那又意味着什么呢？&lt;/p&gt;
+&lt;p&gt;这些都是我关于这个话题的一些拓展问题，希望能够引起大家的思考与联想！&lt;/p&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;下次你站在镜子前，不妨试着眨眨眼，心里默念：“嘿，对面那位大佬，今天请手下留情，合作愉快啊！” —— 毕竟，在这个脑洞里，&lt;strong&gt;我们的人生稳不稳，可能全看镜子里的那位心情好不好！&lt;/strong&gt; 这世界，谁是谁的影子，还真不好说了！&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;祝您愉快，&lt;/p&gt;
+&lt;p&gt;Ditiemi Studio&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>新版本(v1.1)与周总结</title>
+        <link>https://ditiemi12345.github.io/DS/p/%E6%96%B0%E7%89%88%E6%9C%ACv1.1%E4%B8%8E%E5%91%A8%E6%80%BB%E7%BB%93/</link>
+        <pubDate>Fri, 01 Aug 2025 00:00:00 +0800</pubDate>
+        
+        <guid>https://ditiemi12345.github.io/DS/p/%E6%96%B0%E7%89%88%E6%9C%ACv1.1%E4%B8%8E%E5%91%A8%E6%80%BB%E7%BB%93/</guid>
+        <description>&lt;p&gt;&lt;em&gt;（本文章中，Ditiemi Studio将简写为DS）&lt;/em&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;从7月26日正式开放DS网站以来，已经过去了7天的时间！在这7天的时间里，本网站从诞生到逐渐发展，都离不开大家的支持！今天，本网站迎来了第一次小更新（v1.1）！这篇文章中，不仅会介绍本次小更新的所有内容，也会记录上本网站的周总结！&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;更新-v11&#34;&gt;更新-v1.1
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;功能&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;内容&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;关于&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;完善该界面及其功能，”关于“界面中的文章主要包含了欢迎词、DS分支及其主要负责内容、网站的注意事项以及我想说的话等。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;背景&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;网页背景不再黑白单调，加上了蓝紫色的点线组合，电脑端配合鼠标的移动，效果可能会更为明显。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Emoji&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;网页支持了全部的Emoji表情，在这次更新中，也在已发布的文章以及关于界面中加入了部分Emoji表情。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;无刷新加载页面&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;利用PJAX技术，使您在切换页面时，不会刷新页面，导致卡顿的状况。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;加载动画&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;在您打开网站时，如果信号卡顿或者加载缓慢，会出现白底和灰色加载动画，您只需要稍作等待即可。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Github&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;头像下方的一个Github图标，点击即可进入DS的Github页面。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;目录&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;在文章主题右侧的”#目录“功能，点击其中的小标题即可跳转到小标题所对的内容。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;其他&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;更改了页面底部的内容；更改头像下方灰字内容；部分页面显示英文已转为中文；修复文章底部概率显示代码的问题；更改文章发布日期的格式；修改了部分文章内容。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;优化&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;优化了网页加载排版，主题与内容的速度。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;删除的内容&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;删除了阅读时间功能，友链界面，（暂时）评论功能。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;周总结726-81&#34;&gt;周总结（7.26-8.1）
+&lt;/h2&gt;&lt;p&gt;&lt;em&gt;其实这次小更新感觉也能叫大更新了哈哈哈哈，以后的小更新内容可能没有那么多，请大家见谅。一周一次小更新，不定期大更新。&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id=&#34;-成长里程碑&#34;&gt;&lt;strong&gt;🚀 成长里程碑&lt;/strong&gt;
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;上周我们很荣幸收获到了&lt;strong&gt;150+次的访问&lt;/strong&gt;，收到了&lt;strong&gt;2条用户体验反馈&lt;/strong&gt;，感谢大家为v1.1更新指明了方向！&lt;/li&gt;
+&lt;li&gt;不计本文章，本周共发表了&lt;strong&gt;2篇文章&lt;/strong&gt;！分别是D-M与D-D分支的分别一篇文章！感谢大家给予我的创作力量！&lt;/li&gt;
+&lt;li&gt;借助了一些插件，使界面的加载时间平均&lt;strong&gt;下降了30%左右&lt;/strong&gt;（2.1s → 1.4s）！&lt;/li&gt;
+&lt;li&gt;支持的Emoji表情给文章内容带来了&lt;strong&gt;更多的乐趣&lt;/strong&gt;！&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-总结洞察目标&#34;&gt;&lt;strong&gt;💡 总结&amp;amp;洞察&amp;amp;目标&lt;/strong&gt;
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;删除的“评论”功能因功能未完善暂时下线，预计在 &lt;strong&gt;v1.3 更新&lt;/strong&gt;时以更强的形态回归。&lt;/li&gt;
+&lt;li&gt;删除的“阅读时间”功能因为算法不精准，可能会导致误导而暂时下线，预计在重新调整时间算法后在&lt;strong&gt;下个更新&lt;/strong&gt;中回归。&lt;/li&gt;
+&lt;li&gt;“搜索”功能有时还会出现搜索时间慢，搜不出结果，搜索后重新加载搜索界面的问题，我们将重视此问题，在&lt;strong&gt;下个更新&lt;/strong&gt;中修复！&lt;/li&gt;
+&lt;li&gt;深色模式切换有时会出现切换不了，卡顿的情况、会在&lt;strong&gt;下个更新&lt;/strong&gt;中改善；移动端背景动效适配也列入了开发路线图。&lt;/li&gt;
+&lt;li&gt;在Beta版测试中的“&lt;strong&gt;文章浏览数&lt;/strong&gt;”功能并未取得完满成功，存在一定的问题，我们还在努力完善中，发布时间未定。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;您的每一次点击都意义非凡。DS 将坚持&lt;strong&gt;快速响应、持续优化&lt;/strong&gt;的原则，努力为大家奉上更优质的作品！我们下周再见！&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;祝您愉快，&lt;/p&gt;
+&lt;p&gt;Ditiemi Studio&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>DitiemiDaily《抑郁，“安全之地”，“暂停”》</title>
+        <link>https://ditiemi12345.github.io/DS/p/ditiemidaily%E6%8A%91%E9%83%81%E5%AE%89%E5%85%A8%E4%B9%8B%E5%9C%B0%E6%9A%82%E5%81%9C/</link>
+        <pubDate>Mon, 28 Jul 2025 18:05:55 +0800</pubDate>
+        
+        <guid>https://ditiemi12345.github.io/DS/p/ditiemidaily%E6%8A%91%E9%83%81%E5%AE%89%E5%85%A8%E4%B9%8B%E5%9C%B0%E6%9A%82%E5%81%9C/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;写这篇文章是因为我听到了一些短文，有了一些启发，我想那就记录下来吧。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;（本篇文章只是个人想法，可能并不完全符合实际。）&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;抑郁&#34;&gt;🎧&lt;strong&gt;抑郁&lt;/strong&gt;
+&lt;/h2&gt;&lt;p&gt;首先来讲讲抑郁。在我的思想里，&lt;strong&gt;抑郁代表想得更多了，心思更细密了&lt;/strong&gt;。举一个易懂的例子，小时候我们看的动画片里，有好的角色与坏的角色，他们是相反的，好坏分明的。而长大了，有些电影里面，有可能好的角色也有缺点，坏的角色有可能在关键时刻也会出手相助，甚至是起到决定性的作用。那就跟小时候看的动画片不一样了，其中人的形象、性格变得更加复杂。而抑郁也是跟这些有关的。小时候你问妈妈能不能玩15分钟游戏，妈妈同意了，你会第一时间认为这是一个“好妈妈”，而15分钟到了，那局游戏还没有结束，妈妈让你不要玩了，你又会想这是一个“坏妈妈”。那就是你既接受了那个妈妈让你玩游戏的好的一方面，也需要忍受那个妈妈不让你超过时间玩的一方面。&lt;/p&gt;
+&lt;p&gt;所以，&lt;strong&gt;我认为，抑郁一方面代表着不再用简单的非好即坏的标准看待事物，而是能认识到事物的多面性&lt;/strong&gt;。如果把这种情景变得更加严重一点，有一天你要离家出走，你可能会因为家长对你的压力而愤怒，另一方面，你必然会对家长对你的爱护，关爱而心生愧疚。而产生抑郁这种情感的很重要的一个点就随之而来——&lt;strong&gt;愧疚感&lt;/strong&gt;。当一个人处于抑郁状态时，人因思考更细密、对事物的认知更复杂，容易将注意力聚焦于自身的不足或过往的 “过失”，甚至对无关自身的责任产生过度归因。从而放大了自己的那种愧疚感，使其远超事件本身应有的程度。之后就会觉得“我好笨啊”“我怎么这么傻啊”之类的想法，陷入自我否定，形成 &lt;strong&gt;“愧疚→自我否定→抑郁加重→更易产生愧疚”&lt;/strong&gt; 的恶性循环。&lt;/p&gt;
+&lt;p&gt;但是，这并不代表着没有愧疚感就不会抑郁。毫无愧疚感意味着对自身行为给他人造成的伤害缺乏感知或漠视，既不会主动反思，也不会做出补偿。这种状态会让对方持续体验到被忽视、被伤害，最终选择疏远或排斥。最终导致一个人&lt;strong&gt;不被接纳、无人靠近&lt;/strong&gt;，从而逐渐内化 “我是不被需要的”“我的存在没有意义” 的负性认知，而这种无价值感正是抑郁的核心驱动力。所以，我们要找到一个内疚的平衡点，这样将会保持阳光，积极向上。&lt;/p&gt;
+&lt;h2 id=&#34;安全之地与暂停&#34;&gt;🔎&lt;strong&gt;“安全之地”与“暂停”&lt;/strong&gt;
+&lt;/h2&gt;&lt;p&gt;接下来是我对这些负面情绪的推荐的放松方式。我想讲的就是“&lt;strong&gt;安全之地&lt;/strong&gt;”与“&lt;strong&gt;暂停&lt;/strong&gt;”。&lt;/p&gt;
+&lt;h3 id=&#34;安全之地&#34;&gt;&lt;strong&gt;※安全之地&lt;/strong&gt;
+&lt;/h3&gt;&lt;p&gt;“安全之地”也名为“安全岛”，是心理学中的一系列有效的应对负面情绪策略其中之一，也是我认为&lt;strong&gt;最有效，对效果最满意的&lt;/strong&gt;。你只需要一个能让你感到愉快的地方，例如沙发、床等。躺在上面，闭上眼，当你感到迷迷糊糊，却又能洞察现实中的声音的时候，去想象一个你喜欢的地方，不管是室内室外，陆地海洋。然后去把这个地方变得形象起来，去想想这里的细节。这里有人吗？你能听到声音吗？是什么声音呢？当然，&lt;strong&gt;你的想象并不需要外人引导&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;对我而言，一次想象的时间在15~45分钟左右。每次开始时，就顺着上次想象到的地方继续，知道你创造了一个“世外桃源”，怎么样？这个地方是不是比现实世界的感受好多了？重要的是，这个地方只属于你，未经你的允许，任何人无法进入，你需要做的就是在“安全之地”中享受&lt;strong&gt;宁静和放松的感觉&lt;/strong&gt;，帮助自己重新找到&lt;strong&gt;内心的平衡和宁静&lt;/strong&gt;。&lt;/p&gt;
+&lt;h3 id=&#34;暂停&#34;&gt;&lt;strong&gt;※暂停&lt;/strong&gt;
+&lt;/h3&gt;&lt;p&gt;第二种方法是暂停。相比于“安全之地”来说，这个方法&lt;strong&gt;时间更短，场景不限&lt;/strong&gt;，可以说是只要你愿意“暂停”，就随时可以“暂停”。当你感觉到负面的情绪时，闭上眼，头脑放空，坚持几秒钟，不想任何东西，让头脑放缓下来，然后去想你体验到，感受到的负面情绪是什么，因为什么才有的负面情绪。如果情绪很杂乱，就把杂乱的所有组成部分拆开来去思考，去想。这样，没过多久，负面情绪就消失了。负面情绪，如果你想要逃离它，不去想它，你会觉得它更难消失，但你去&lt;strong&gt;勇敢面对它&lt;/strong&gt;，你就会发现，&lt;strong&gt;它其实就是纸老虎，没过多久就化作烟灰飘散了&lt;/strong&gt;。&lt;/p&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;这就是我这篇文章的所有内容了，感谢你看到这里，在此也祝你拥有一个永远充满欢乐的人生吧！&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;祝您愉快，&lt;/p&gt;
+&lt;p&gt;Ditiemi Studio&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>DitiemiMusic总辑(2025.7.26)</title>
+        <link>https://ditiemi12345.github.io/DS/p/ditiemimusic%E6%80%BB%E8%BE%912025.7.26/</link>
+        <pubDate>Sat, 26 Jul 2025 18:53:55 +0800</pubDate>
+        
+        <guid>https://ditiemi12345.github.io/DS/p/ditiemimusic%E6%80%BB%E8%BE%912025.7.26/</guid>
+        <description>&lt;p&gt;&lt;strong&gt;Ditiemi Music - 目前情况&lt;/strong&gt;📓&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;🎵&lt;strong&gt;《Ethereal Reverie》&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;未上架平台&lt;/strong&gt;：汽水音乐（抖音音乐开放平台未成年人无法在线签署协议，正在努力解决问题中&amp;hellip;）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;已上架平台&lt;/strong&gt;：网易云音乐，QQ音乐，酷狗音乐，酷我音乐及一些海外平台&lt;/p&gt;
+&lt;p&gt;网易云音乐：🔗&lt;a class=&#34;link&#34; href=&#34;https://music.163.com/#/song?id=2700915348&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;点击这里即可收听！&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;QQ音乐：🔗&lt;a class=&#34;link&#34; href=&#34;https://i.y.qq.com/v8/playsong.html?songid=591998504#webchat_redirect&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;点击这里即可收听！&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;酷狗音乐：🔗&lt;a class=&#34;link&#34; href=&#34;https://www.kugou.com/mixsong/cud45627.html?fromsearch=ditiemi&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;点击这里即可收听！&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;酷我音乐：🔗&lt;a class=&#34;link&#34; href=&#34;https://kuwo.cn/play_detail/486772105&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;点击这里即可收听！&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;📌&lt;em&gt;海外平台请自行搜索哦~&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;🎵&lt;strong&gt;《Nocturnal Descent》&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;未上架平台&lt;/strong&gt;：汽水音乐（抖音音乐开放平台未成年人无法在线签署协议，正在努力解决问题中&amp;hellip;）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;未上架平台&lt;/strong&gt;：QQ音乐，酷狗音乐，酷我音乐及一些海外平台（正在陆续上架中&amp;hellip;）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;已上架平台&lt;/strong&gt;：网易云音乐&lt;/p&gt;
+&lt;p&gt;网易云音乐：🔗&lt;a class=&#34;link&#34; href=&#34;https://music.163.com/#/song?id=2701244951&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;点击这里即可收听！&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;🎵&lt;strong&gt;《Frigid Rhapsody》&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;未上架平台&lt;/strong&gt;：汽水音乐（抖音音乐开放平台未成年人无法在线签署协议，正在努力解决问题中&amp;hellip;）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;未上架平台&lt;/strong&gt;：QQ音乐，酷狗音乐，酷我音乐及一些海外平台（正在陆续上架中&amp;hellip;）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;已上架平台&lt;/strong&gt;：网易云音乐&lt;/p&gt;
+&lt;p&gt;网易云音乐：🔗&lt;a class=&#34;link&#34; href=&#34;https://music.163.com/#/song?id=2701499692&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;点击这里即可收听！&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;🎵&lt;strong&gt;《Cosmic Abyss》&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;未上架平台&lt;/strong&gt;：汽水音乐（抖音音乐开放平台未成年人无法在线签署协议，正在努力解决问题中&amp;hellip;）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;已上架平台&lt;/strong&gt;：网易云音乐，QQ音乐，酷狗音乐，酷我音乐及一些海外平台&lt;/p&gt;
+&lt;p&gt;网易云音乐：🔗&lt;a class=&#34;link&#34; href=&#34;https://music.163.com/#/song?id=2728909651&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;点击这里即可收听！&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;QQ音乐：🔗&lt;a class=&#34;link&#34; href=&#34;https://i.y.qq.com/v8/playsong.html?songid=591835839#webchat_redirect&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;点击这里即可收听！&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;酷狗音乐：🔗&lt;a class=&#34;link&#34; href=&#34;https://www.kugou.com/mixsong/cu7k64a9.html?fromsearch=ditiemi&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;点击这里即可收听！&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;酷我音乐：🔗&lt;a class=&#34;link&#34; href=&#34;https://kuwo.cn/play_detail/486607286&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;点击这里即可收听！&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;📌&lt;em&gt;海外平台请自行搜索哦~&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;最后，感谢大家对我的音乐的支持❤！我也会继续努力，为大家献出更加优秀的作品！&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;祝您愉快，&lt;/p&gt;
+&lt;p&gt;Ditiemi Studio&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
