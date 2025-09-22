@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content=" 你有没有对着镜子自恋、做鬼脸，或者突然发现自己表情很傻的时候？想象一下，如果镜子里的那位才是真正的“你”，而我们每天忙忙碌碌，只不过是人家在玻璃那头活动时投下的一个可怜的倒影……这事儿光想想就觉得又诡异又搞笑！\n">
+<title>如果镜子里的世界是真实的，而我们才是倒影？</title>
+
+<link rel='canonical' href='https://ditiemi12345.github.io/DS/p/%E5%A6%82%E6%9E%9C%E9%95%9C%E5%AD%90%E9%87%8C%E7%9A%84%E4%B8%96%E7%95%8C%E6%98%AF%E7%9C%9F%E5%AE%9E%E7%9A%84%E8%80%8C%E6%88%91%E4%BB%AC%E6%89%8D%E6%98%AF%E5%80%92%E5%BD%B1/'>
+
+<link rel="stylesheet" href="/DS/scss/style.min.946cca6c6259ef94ac55abfae7c7bf3291ea3ed5eea17ef77500b257217c6710.css"><meta property='og:title' content="如果镜子里的世界是真实的，而我们才是倒影？">
+<meta property='og:description' content=" 你有没有对着镜子自恋、做鬼脸，或者突然发现自己表情很傻的时候？想象一下，如果镜子里的那位才是真正的“你”，而我们每天忙忙碌碌，只不过是人家在玻璃那头活动时投下的一个可怜的倒影……这事儿光想想就觉得又诡异又搞笑！\n">
+<meta property='og:url' content='https://ditiemi12345.github.io/DS/p/%E5%A6%82%E6%9E%9C%E9%95%9C%E5%AD%90%E9%87%8C%E7%9A%84%E4%B8%96%E7%95%8C%E6%98%AF%E7%9C%9F%E5%AE%9E%E7%9A%84%E8%80%8C%E6%88%91%E4%BB%AC%E6%89%8D%E6%98%AF%E5%80%92%E5%BD%B1/'>
+<meta property='og:site_name' content='Ditiemi Studio'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-08-01T20:25:16&#43;08:00'/><meta property='article:modified_time' content='2025-08-01T20:25:16&#43;08:00'/>
+<meta name="twitter:title" content="如果镜子里的世界是真实的，而我们才是倒影？">
+<meta name="twitter:description" content=" 你有没有对着镜子自恋、做鬼脸，或者突然发现自己表情很傻的时候？想象一下，如果镜子里的那位才是真正的“你”，而我们每天忙忙碌碌，只不过是人家在玻璃那头活动时投下的一个可怜的倒影……这事儿光想想就觉得又诡异又搞笑！\n">
+    <link rel="shortcut icon" href="/DS/favicon.ico" />
+<div class="loading">
+    <div class="spinner center">
+    <div class="spinner-blade"></div>
+    <div class="spinner-blade"></div>
+    <div class="spinner-blade"></div>
+    <div class="spinner-blade"></div>
+    <div class="spinner-blade"></div>
+    <div class="spinner-blade"></div>
+    <div class="spinner-blade"></div>
+    <div class="spinner-blade"></div>
+    <div class="spinner-blade"></div>
+    <div class="spinner-blade"></div>
+    <div class="spinner-blade"></div>
+    <div class="spinner-blade"></div>
+</div>
+</div>
+
+<style>
+    .loading {
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 99;
+        background-color: #f5f5fa;
+    }
+	
+    .spinner {
+  font-size: 28px;
+  position: relative;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+}
+
+.spinner.center {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.spinner .spinner-blade {
+  position: absolute;
+  left: 0.4629em;
+  bottom: 0;
+  width: 0.074em;
+  height: 0.2777em;
+  border-radius: 0.0555em;
+  background-color: transparent;
+  -webkit-transform-origin: center -0.2222em;
+  -ms-transform-origin: center -0.2222em;
+  transform-origin: center -0.2222em;
+  animation: spinner-fade9234 1s infinite linear;
+}
+
+.spinner .spinner-blade:nth-child(1) {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.spinner .spinner-blade:nth-child(2) {
+  -webkit-animation-delay: 0.083s;
+  animation-delay: 0.083s;
+  -webkit-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
+.spinner .spinner-blade:nth-child(3) {
+  -webkit-animation-delay: 0.166s;
+  animation-delay: 0.166s;
+  -webkit-transform: rotate(60deg);
+  -ms-transform: rotate(60deg);
+  transform: rotate(60deg);
+}
+
+.spinner .spinner-blade:nth-child(4) {
+  -webkit-animation-delay: 0.249s;
+  animation-delay: 0.249s;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.spinner .spinner-blade:nth-child(5) {
+  -webkit-animation-delay: 0.332s;
+  animation-delay: 0.332s;
+  -webkit-transform: rotate(120deg);
+  -ms-transform: rotate(120deg);
+  transform: rotate(120deg);
+}
+
+.spinner .spinner-blade:nth-child(6) {
+  -webkit-animation-delay: 0.415s;
+  animation-delay: 0.415s;
+  -webkit-transform: rotate(150deg);
+  -ms-transform: rotate(150deg);
+  transform: rotate(150deg);
+}
+
+.spinner .spinner-blade:nth-child(7) {
+  -webkit-animation-delay: 0.498s;
+  animation-delay: 0.498s;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.spinner .spinner-blade:nth-child(8) {
+  -webkit-animation-delay: 0.581s;
+  animation-delay: 0.581s;
+  -webkit-transform: rotate(210deg);
+  -ms-transform: rotate(210deg);
+  transform: rotate(210deg);
+}
+
+.spinner .spinner-blade:nth-child(9) {
+  -webkit-animation-delay: 0.664s;
+  animation-delay: 0.664s;
+  -webkit-transform: rotate(240deg);
+  -ms-transform: rotate(240deg);
+  transform: rotate(240deg);
+}
+
+.spinner .spinner-blade:nth-child(10) {
+  -webkit-animation-delay: 0.747s;
+  animation-delay: 0.747s;
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+.spinner .spinner-blade:nth-child(11) {
+  -webkit-animation-delay: 0.83s;
+  animation-delay: 0.83s;
+  -webkit-transform: rotate(300deg);
+  -ms-transform: rotate(300deg);
+  transform: rotate(300deg);
+}
+
+.spinner .spinner-blade:nth-child(12) {
+  -webkit-animation-delay: 0.913s;
+  animation-delay: 0.913s;
+  -webkit-transform: rotate(330deg);
+  -ms-transform: rotate(330deg);
+  transform: rotate(330deg);
+}
+
+@keyframes spinner-fade9234 {
+  0% {
+    background-color: #69717d;
+  }
+
+  100% {
+    background-color: transparent;
+  }
+}
+</style>
+
+<script>	
+    function initLoading() {
+        let loading = document.querySelector(".loading");
+        document.addEventListener('DOMContentLoaded', function() {
+            
+            loading.style.display = "none";
+        });
+    }
+
+    initLoading();
+</script>
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/DS/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/DS/img/avatar_hu_951d81fd18d73c7a.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/DS">Ditiemi Studio</a></h1>
+            <h2 class="site-description">v2.2.1</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://github.com/ditiemi12345/DS'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/DS/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/DS/%E5%85%B3%E4%BA%8E/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/DS/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>档案</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/DS/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>暗色模式</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#肉身与主权的彻底颠倒">🎯肉身与主权的彻底颠倒！</a></li>
+    <li><a href="#现实不再现实物理秒变雾里">📦现实不再“现实”，物理秒变“雾里”？</a></li>
+    <li><a href="#一些有趣的疑问">😕一些有趣的疑问&hellip;&hellip;</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/DS/categories/ditiemi-topic-a/" >
+                Ditiemi Topic A
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/DS/p/%E5%A6%82%E6%9E%9C%E9%95%9C%E5%AD%90%E9%87%8C%E7%9A%84%E4%B8%96%E7%95%8C%E6%98%AF%E7%9C%9F%E5%AE%9E%E7%9A%84%E8%80%8C%E6%88%91%E4%BB%AC%E6%89%8D%E6%98%AF%E5%80%92%E5%BD%B1/">如果镜子里的世界是真实的，而我们才是倒影？</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">2025.08.01</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 3 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+</header>
+
+    <section class="article-content">
+    
+    
+    <blockquote>
+<p>你有没有对着镜子自恋、做鬼脸，或者突然发现自己表情很傻的时候？想象一下，如果镜子里的那位才是真正的“你”，而我们每天忙忙碌碌，只不过是人家在玻璃那头活动时投下的一个可怜的倒影……这事儿光想想就觉得又诡异又搞笑！</p></blockquote>
+<hr>
+<h2 id="肉身与主权的彻底颠倒">🎯肉身与主权的彻底颠倒！
+</h2><p>以前我们觉得是我们控制镜子中的人。现在倒是反过来了，是镜子里那个“我们”的一举一动，直接决定了我们这个倒影能做什么。我觉得吧&hellip;<strong>有点憋屈</strong>！</p>
+<p>举个形象的例子。你一大早赶火车，你想飞快地刷牙洗脸，但镜子里那位“本尊”却恰恰是个慢性子，或者正在发呆。你一开始洗漱，动作就快不起来，<strong>急得跳脚</strong>也没用，因为“你”的动作完全取决于那位“本尊”的速度。是不是够急？如果你有一场重要的演讲。你精心准备，对着镜子练习自己的微笑和发言。结果关键时刻，镜子里的“本尊”可能紧张得表情僵硬，或者打了个不合时宜的喷嚏。你这边就只能被迫呈现同样的<strong>窘态</strong>，对别人解释的时候你说：“不是我！是镜子里那位搞砸的！”——<strong>谁会信</strong>？</p>
+<h2 id="现实不再现实物理秒变雾里">📦现实不再“现实”，物理秒变“雾里”？
+</h2><p>我们知道，光线从光源发出，照射到我们身上，再反射到镜子上，最后反射进入我们的眼睛形成镜像。但如果镜子里是主体，那光线该如何是好？难道是主体在镜子那头反射光，光随之穿透镜面，最后投射到我们这个“影子世界”？这完全<strong>颠覆了物理的光学基础</strong>。</p>
+<p>如果你在纸上写个“OK”举到镜子前，你会发现镜子里显示的是左右颠倒的“KO”。但如果镜子里是本体世界，那意味着他们写的“OK”本身就是反的？他们看我们写的“OK”反而是正的？他们的书本、路标、屏幕显示都得是反的？<strong>真的是太奇怪了</strong>，如果是你，你能看懂他们写的字吗？又比如你被吓一跳，本能地往后一缩。是镜中的本体先感知到危险做出的反应，然后使你同步后缩？还是你产生了“被吓到”的意识，而镜中早就预测到你会在这个时间被吓到，所以在这个时间假装“被吓到”？这种<strong>因果关系已经全部混乱了</strong>！</p>
+<p>更可怕的设想是，镜子那边的本体是否具有主观思想，能故意操控我们？比如你在演讲时，镜中“本体”却故意做鬼脸、打瞌睡，导致你在众目睽睽下失控出丑。你却完全无能为力，因为你只是被动投影，你又会怎么联展想象呢？</p>
+<h2 id="一些有趣的疑问">😕一些有趣的疑问&hellip;&hellip;
+</h2><p>如果“我”只是镜中人的影子，那“我”的思维、意识、情感是独立的吗？还是仅仅是镜中“本体”思维的粗糙复制或投射？如果“本体”死了，“我”这个影子会立刻消失吗？如果镜子碎了、脏了、或者被遮住了，“我”这个影子是模糊了、扭曲了，还是直接“没”了？擦镜子是不是相当于在给“本体”做清洁？有没有办法和镜子里的“本体”沟通？如果沟通成功，他们会承认我们的存在吗？我们这个世界的物理规则是独立的，还是完全由镜中世界的规则模拟出来的？如果是后者，那又意味着什么呢？</p>
+<p>这些都是我关于这个话题的一些拓展问题，希望能够引起大家的思考与联想！</p>
+<hr>
+<blockquote>
+<p>下次你站在镜子前，不妨试着眨眨眼，心里默念：“嘿，对面那位大佬，今天请手下留情，合作愉快啊！” —— 毕竟，在这个脑洞里，<strong>我们的人生稳不稳，可能全看镜子里的那位心情好不好！</strong> 这世界，谁是谁的影子，还真不好说了！</p></blockquote>
+<p>祝您愉快，</p>
+<p>Ditiemi Studio</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>内容许可证：CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/DS/p/%E8%AE%B0%E5%BF%86%E5%8F%AF%E4%BB%A5%E5%83%8F%E7%94%B5%E8%84%91%E6%96%87%E4%BB%B6%E4%B8%80%E6%A0%B7%E8%A2%AB%E6%A0%BC%E5%BC%8F%E5%8C%96%E5%90%97/">
+        
+        
+            <div class="article-image">
+                <img src="/DS/p/%E8%AE%B0%E5%BF%86%E5%8F%AF%E4%BB%A5%E5%83%8F%E7%94%B5%E8%84%91%E6%96%87%E4%BB%B6%E4%B8%80%E6%A0%B7%E8%A2%AB%E6%A0%BC%E5%BC%8F%E5%8C%96%E5%90%97/omh.86025bcfcdf9de494fff6d7c72675092_hu_e01aba943d859a4b.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 记忆可以像电脑文件一样被格式化吗？"
+                        
+                        data-hash="md5-hgJbz8353klP/218cmdQkg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">记忆可以像电脑文件一样被格式化吗？</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/DS/p/%E6%97%B6%E9%97%B4%E5%8F%AF%E4%BB%A5%E5%83%8F%E8%B4%A7%E5%B8%81%E4%B8%80%E6%A0%B7%E4%BA%A4%E6%98%93/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">时间可以像货币一样交易？</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/DS/p/%E5%9B%9B%E4%B8%AA%E5%AD%97%E6%AF%8Dmbti/">
+        
+        
+            <div class="article-image">
+                <img src="/DS/p/%E5%9B%9B%E4%B8%AA%E5%AD%97%E6%AF%8Dmbti/MBTI.2624cb618c45099bfe0a70e7b8a571fb_hu_26e0823fe0b7dd7d.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 四个字母：MBTI"
+                        
+                        data-hash="md5-JiTLYYxFCZv&#43;CnDnuKVx&#43;w==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">四个字母：MBTI</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2025 Ditiemi Studio
+    </section>
+    
+    <section class="powerby">
+        
+            祝发现了这行字的你天天开心! <br/>
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.30.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/DS/ts/main.b18f5cc168e3d714115b61a9f45cc71646abad1defb2ea9a26f63f58085cbe8a.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+<script defer src="https://events.vercount.one/js"></script>
+
+<div id="particles-js"></div>
+<script src=https://ditiemi12345.github.io/DS/background/particles.min.js></script>
+<script>
+  particlesJS.load('particles-js', "https://ditiemi12345.github.io/DS/background/particlesjs-config.json", function() {
+    console.log('particles.js loaded - callback');
+  });
+</script>
+
+<style>
+  #particles-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+  }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script>
+<script>
+    var pjax = new Pjax({
+        selectors: [
+            ".main-container"
+        ]
+    })
+</script>
+<script>
+    pjax._handleResponse = pjax.handleResponse;
+    pjax.handleResponse = function(responseText, request, href, options) {
+        if (request.responseText.match("<html")) {
+            if (responseText) {
+                
+                let newDom = new DOMParser().parseFromString(responseText, 'text/html');
+                
+                let bodyClass = newDom.body.className;
+                document.body.setAttribute("class", bodyClass)
+            }
+            
+            pjax._handleResponse(responseText, request, href, options);
+        } else {
+            
+        }
+    }
+</script>
+<script>
+    document.addEventListener('pjax:send', () => {
+        
+        topbar.show();
+    })
+    document.addEventListener('pjax:complete', () => {
+        
+        window.Stack.init();
+        topbar.hide();
+    })
+</script>
+
+<style>
+    #TableOfContents > ul, ol {
+        ul, ol {
+            display: none;
+        }
+        .open {
+            display: block;
+        }
+    }
+</style>
+
+<script>
+    function initTocHide() {
+        
+        let toc = document.querySelector(".widget--toc");
+        if (!toc) {
+            return;
+        }
+        
+        window.addEventListener('scroll', function() {
+            
+            let openUl = document.querySelectorAll(".open");
+            if (openUl.length > 0) {
+              openUl.forEach((ul) => {
+                ul.classList.remove("open")
+              })
+            }
+            
+            let currentLi = document.querySelector(".active-class");
+            if (!currentLi) {
+                return
+            }
+            
+            if (currentLi.children.length > 1) {
+                currentLi.children[1].classList.add("open")
+            }
+            
+            let ul = currentLi.parentElement;
+            do {
+                ul.classList.add("open");
+                ul = ul.parentElement.parentElement
+            } while (ul !== undefined && (ul.localName === 'ul' || ul.localName === 'ol'))
+        });
+    }
+    initTocHide()
+</script>
+
+...
+
+    
+    <script src=https://ditiemi12345.github.io/DS/js/topbar.min.js></script>
+
+<script>
+    
+    topbar.config({
+        barColors: {
+            '0': 'rgba(255,  255, 255, 1)', 
+            '1.0': 'rgba(0, 149, 234,  1)' 
+        }
+    })
+	
+    document.addEventListener('pjax:send', () => {
+        
+        topbar.show();
+    })
+	
+    document.addEventListener('pjax:complete', () => {
+        ....
+        
+        topbar.hide();
+    })
+</script>
+    </body>
+</html>
