@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content=" 假如时间真的能像钱一样存进银行、拿来买卖，日常生活会变成什么样？就聊聊那些让人笑出声（或者默默捂紧自己时间钱包）的奇葩场景：\n👔时间银行开业，全民开启“晒命”模式 “时间余额焦虑症”爆发：\n">
+<title>时间可以像货币一样交易？</title>
+
+<link rel='canonical' href='https://ditiemi12345.github.io/DS/p/%E6%97%B6%E9%97%B4%E5%8F%AF%E4%BB%A5%E5%83%8F%E8%B4%A7%E5%B8%81%E4%B8%80%E6%A0%B7%E4%BA%A4%E6%98%93/'>
+
+<link rel="stylesheet" href="/DS/scss/style.min.8e6dd05a8797b68d0c1182ebc29f213289601e65bda0a2fec2f2effaed00e95b.css"><meta property='og:title' content="时间可以像货币一样交易？">
+<meta property='og:description' content=" 假如时间真的能像钱一样存进银行、拿来买卖，日常生活会变成什么样？就聊聊那些让人笑出声（或者默默捂紧自己时间钱包）的奇葩场景：\n👔时间银行开业，全民开启“晒命”模式 “时间余额焦虑症”爆发：\n">
+<meta property='og:url' content='https://ditiemi12345.github.io/DS/p/%E6%97%B6%E9%97%B4%E5%8F%AF%E4%BB%A5%E5%83%8F%E8%B4%A7%E5%B8%81%E4%B8%80%E6%A0%B7%E4%BA%A4%E6%98%93/'>
+<meta property='og:site_name' content='Ditiemi Studio'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-08-14T15:31:39&#43;08:00'/><meta property='article:modified_time' content='2025-08-14T15:31:39&#43;08:00'/>
+<meta name="twitter:title" content="时间可以像货币一样交易？">
+<meta name="twitter:description" content=" 假如时间真的能像钱一样存进银行、拿来买卖，日常生活会变成什么样？就聊聊那些让人笑出声（或者默默捂紧自己时间钱包）的奇葩场景：\n👔时间银行开业，全民开启“晒命”模式 “时间余额焦虑症”爆发：\n">
+    <link rel="shortcut icon" href="/DS/favicon.ico" />
+<div class="loading">
+    <div class="spinner center">
+    <div class="spinner-blade"></div>
+    <div class="spinner-blade"></div>
+    <div class="spinner-blade"></div>
+    <div class="spinner-blade"></div>
+    <div class="spinner-blade"></div>
+    <div class="spinner-blade"></div>
+    <div class="spinner-blade"></div>
+    <div class="spinner-blade"></div>
+    <div class="spinner-blade"></div>
+    <div class="spinner-blade"></div>
+    <div class="spinner-blade"></div>
+    <div class="spinner-blade"></div>
+</div>
+</div>
+
+<style>
+    .loading {
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 99;
+        background-color: #f5f5fa;
+    }
+	
+    .spinner {
+  font-size: 28px;
+  position: relative;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+}
+
+.spinner.center {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.spinner .spinner-blade {
+  position: absolute;
+  left: 0.4629em;
+  bottom: 0;
+  width: 0.074em;
+  height: 0.2777em;
+  border-radius: 0.0555em;
+  background-color: transparent;
+  -webkit-transform-origin: center -0.2222em;
+  -ms-transform-origin: center -0.2222em;
+  transform-origin: center -0.2222em;
+  animation: spinner-fade9234 1s infinite linear;
+}
+
+.spinner .spinner-blade:nth-child(1) {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.spinner .spinner-blade:nth-child(2) {
+  -webkit-animation-delay: 0.083s;
+  animation-delay: 0.083s;
+  -webkit-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
+.spinner .spinner-blade:nth-child(3) {
+  -webkit-animation-delay: 0.166s;
+  animation-delay: 0.166s;
+  -webkit-transform: rotate(60deg);
+  -ms-transform: rotate(60deg);
+  transform: rotate(60deg);
+}
+
+.spinner .spinner-blade:nth-child(4) {
+  -webkit-animation-delay: 0.249s;
+  animation-delay: 0.249s;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.spinner .spinner-blade:nth-child(5) {
+  -webkit-animation-delay: 0.332s;
+  animation-delay: 0.332s;
+  -webkit-transform: rotate(120deg);
+  -ms-transform: rotate(120deg);
+  transform: rotate(120deg);
+}
+
+.spinner .spinner-blade:nth-child(6) {
+  -webkit-animation-delay: 0.415s;
+  animation-delay: 0.415s;
+  -webkit-transform: rotate(150deg);
+  -ms-transform: rotate(150deg);
+  transform: rotate(150deg);
+}
+
+.spinner .spinner-blade:nth-child(7) {
+  -webkit-animation-delay: 0.498s;
+  animation-delay: 0.498s;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.spinner .spinner-blade:nth-child(8) {
+  -webkit-animation-delay: 0.581s;
+  animation-delay: 0.581s;
+  -webkit-transform: rotate(210deg);
+  -ms-transform: rotate(210deg);
+  transform: rotate(210deg);
+}
+
+.spinner .spinner-blade:nth-child(9) {
+  -webkit-animation-delay: 0.664s;
+  animation-delay: 0.664s;
+  -webkit-transform: rotate(240deg);
+  -ms-transform: rotate(240deg);
+  transform: rotate(240deg);
+}
+
+.spinner .spinner-blade:nth-child(10) {
+  -webkit-animation-delay: 0.747s;
+  animation-delay: 0.747s;
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+.spinner .spinner-blade:nth-child(11) {
+  -webkit-animation-delay: 0.83s;
+  animation-delay: 0.83s;
+  -webkit-transform: rotate(300deg);
+  -ms-transform: rotate(300deg);
+  transform: rotate(300deg);
+}
+
+.spinner .spinner-blade:nth-child(12) {
+  -webkit-animation-delay: 0.913s;
+  animation-delay: 0.913s;
+  -webkit-transform: rotate(330deg);
+  -ms-transform: rotate(330deg);
+  transform: rotate(330deg);
+}
+
+@keyframes spinner-fade9234 {
+  0% {
+    background-color: #69717d;
+  }
+
+  100% {
+    background-color: transparent;
+  }
+}
+</style>
+
+<script>	
+    function initLoading() {
+        let loading = document.querySelector(".loading");
+        document.addEventListener('DOMContentLoaded', function() {
+            
+            loading.style.display = "none";
+        });
+    }
+
+    initLoading();
+</script>
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/DS/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/DS/img/avatar_hu_951d81fd18d73c7a.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/DS">Ditiemi Studio</a></h1>
+            <h2 class="site-description">v2.3.1.1</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://github.com/ditiemi12345/DS'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/DS/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/DS/%E5%85%B3%E4%BA%8E/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/DS/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>档案</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/DS/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>暗色模式</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#时间银行开业全民开启晒命模式">👔时间银行开业，全民开启“晒命”模式</a></li>
+    <li><a href="#时间交易上街魔幻日常上演">🎁时间交易上街，魔幻日常上演</a></li>
+    <li><a href="#时间交易奇葩副作用">🎃时间交易奇葩副作用</a></li>
+    <li><a href="#结局时间交易是解药还是毒药">结局：时间交易，是解药还是毒药？</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/DS/categories/ditiemi-topic-a/" >
+                Ditiemi Topic A
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/DS/p/%E6%97%B6%E9%97%B4%E5%8F%AF%E4%BB%A5%E5%83%8F%E8%B4%A7%E5%B8%81%E4%B8%80%E6%A0%B7%E4%BA%A4%E6%98%93/">时间可以像货币一样交易？</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">2025.08.14</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 3 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+</header>
+
+    <section class="article-content">
+    
+    
+    <blockquote>
+<p>假如时间真的能像钱一样存进银行、拿来买卖，日常生活会变成什么样？就聊聊那些让人笑出声（或者默默捂紧自己时间钱包）的奇葩场景：</p></blockquote>
+<hr>
+<h2 id="时间银行开业全民开启晒命模式">👔时间银行开业，全民开启“晒命”模式
+</h2><ul>
+<li>
+<p><strong>“时间余额焦虑症”爆发：</strong></p>
+<p>在此之后，早上睁眼第一件事不是刷朋友圈，而是看手机上的“<strong>时间银行</strong>”APP：“余额：42年3个月16小时”。看见同事小王余额显示“51年”，立刻<strong>柠檬精附体</strong>：“凭什么！我昨晚明明比他早睡1小时！”</p>
+<p><em><strong>此时的朋友圈：</strong></em></p>
+<ul>
+<li><em>嘻嘻，坚持早睡打卡30天，怒赚3个月！</em></li>
+<li><em>唉，爷爷非要转我10年当生日礼物，这怎么好意思花嘛…</em></li>
+</ul>
+</li>
+<li>
+<p><strong>新贵职业：时间理财顾问</strong></p>
+<p>他们的口号是：“<strong>让你的每一分钟都增值</strong>！” 业务包括：</p>
+<ul>
+<li><strong>时间定存：</strong> “存5年送1个月！锁定高收益！”<em>（但中途取出要扣“时间违约金”）</em></li>
+<li><strong>时间投资组合：</strong> “建议您把健身时间投入‘健康增值包’，预计寿命延长回报率8%！”</li>
+<li><strong>高风险时间期货：</strong> “赌这个程序员下周加班猝死概率？来押注他剩余时间贬值！”<em>（缺德值MAX+）</em></li>
+</ul>
+</li>
+</ul>
+<h2 id="时间交易上街魔幻日常上演">🎁时间交易上街，魔幻日常上演
+</h2><ul>
+<li><strong>剁手党的新境界：</strong>
+商场里，你看中一件大衣，店员微笑：“亲，现金5999元，或者支付‘3天寿命’哦！” 你咬牙付款：“<strong>不就3天嘛！刷时间卡！</strong>”（回家后看着余额减少突然肉痛：“啊！那3天本来能躺着刷剧的！”）</li>
+<li><strong>打工人の终极噩梦：</strong>
+老板开会宣布：“公司快不行了，需要大家‘自愿捐献’时间——小张，你年轻，捐1个月吧？老王，你捐2周？” 你弱弱举手：“老板…我能捐上个月加的班吗？”（老板：“不行，<strong>过期时间</strong>只能按垃圾时间回收，折价90%！”）</li>
+<li><strong>时间小偷vs时间警察：</strong>
+出现新型犯罪：“时间扒手”用特制仪器贴你一下，偷走99小时！更惨的是“时间诈骗”：“我是秦始皇，V我50年寿命，复活后封你当丞相！” 警方成立“<strong>时间特警队</strong>”，专抓这些“偷命贼”。</li>
+<li><strong>闺蜜间的塑料情谊：</strong>
+“亲爱的，借我6小时呗！我男神演唱会今晚开票，我得熬夜抢！”“行，日利率10%，明天还我6小时36分钟！” <strong>友尽！</strong></li>
+</ul>
+<h2 id="时间交易奇葩副作用">🎃时间交易奇葩副作用
+</h2><ul>
+<li><strong>“时间通胀”与“时间鄙视链”：</strong>
+<ul>
+<li><strong>富人区流行“永生套餐”</strong>：富豪们狂买穷人的时间，账户余额显示“∞”，日常凡尔赛：“哎呀，活太久也挺无聊的~”</li>
+<li><strong>打工人自嘲“时间月光族”</strong>：月底一看账户：“剩余：15天”，瑟瑟发抖等发“时间薪”。</li>
+<li><strong>出现新歧视</strong>：“短命鬼别碰我！你只剩20年，传染我霉运怎么办？”<strong>离谱！</strong></li>
+</ul>
+</li>
+<li><strong>迷惑行为大赏：</strong>
+<ul>
+<li><strong>拖延症晚期患者狂喜：</strong> “反正时间能买？ deadline前直接买10小时续命！”（结果时间债务滚成高利贷）。</li>
+<li><strong>“时间体验馆”爆火：</strong> 花1小时，体验当1天亿万富翁/顶流明星。（出来感慨：“唉，还是当自己省时间…”）。</li>
+<li><strong>养生达人成最大赢家：</strong> 早睡一小时=赚钱！健身房直接改名叫“时间印钞机”。</li>
+</ul>
+</li>
+</ul>
+<h2 id="结局时间交易是解药还是毒药">结局：时间交易，是解药还是毒药？
+</h2><p>乍一看，时间交易简直爽文设定：“缺钱？卖命啊！” 但真实现了，日子可能变得贼荒诞！以前愁没钱，现在愁没命花。阶层固化升级成“寿命固化”，想想就窒息…<strong>最讽刺的是：</strong> 当时间能买卖，大家反而更不会“花时间”享受生活了——都在忙着“赚时间”、“省时间”、“囤时间”，生怕亏了！</p>
+<p>所以啊，还是现在这样好：<strong>时间对每个人最公平，管你有钱没钱，一天都只有24小时。</strong> 与其幻想卖命换钱，不如关掉脑洞，好好享受手头正在溜走的这一分钟&hellip;</p>
+<hr>
+<blockquote>
+<p>看完这篇就放下手机，去晒晒太阳、撸撸猫、或者找朋友唠个“费时间”但快乐的嗑吧！毕竟，<strong>有些快乐，多少“时间币”都买不来。</strong> 😉</p></blockquote>
+<p>祝您愉快，</p>
+<p>Ditiemi Studio</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>内容许可证：CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/DS/p/%E8%AE%B0%E5%BF%86%E5%8F%AF%E4%BB%A5%E5%83%8F%E7%94%B5%E8%84%91%E6%96%87%E4%BB%B6%E4%B8%80%E6%A0%B7%E8%A2%AB%E6%A0%BC%E5%BC%8F%E5%8C%96%E5%90%97/">
+        
+        
+            <div class="article-image">
+                <img src="/DS/p/%E8%AE%B0%E5%BF%86%E5%8F%AF%E4%BB%A5%E5%83%8F%E7%94%B5%E8%84%91%E6%96%87%E4%BB%B6%E4%B8%80%E6%A0%B7%E8%A2%AB%E6%A0%BC%E5%BC%8F%E5%8C%96%E5%90%97/omh.86025bcfcdf9de494fff6d7c72675092_hu_e01aba943d859a4b.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 记忆可以像电脑文件一样被格式化吗？"
+                        
+                        data-hash="md5-hgJbz8353klP/218cmdQkg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">记忆可以像电脑文件一样被格式化吗？</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/DS/p/%E5%9B%9B%E4%B8%AA%E5%AD%97%E6%AF%8Dmbti/">
+        
+        
+            <div class="article-image">
+                <img src="/DS/p/%E5%9B%9B%E4%B8%AA%E5%AD%97%E6%AF%8Dmbti/MBTI.2624cb618c45099bfe0a70e7b8a571fb_hu_26e0823fe0b7dd7d.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 四个字母：MBTI"
+                        
+                        data-hash="md5-JiTLYYxFCZv&#43;CnDnuKVx&#43;w==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">四个字母：MBTI</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/DS/p/%E5%A6%82%E6%9E%9C%E9%95%9C%E5%AD%90%E9%87%8C%E7%9A%84%E4%B8%96%E7%95%8C%E6%98%AF%E7%9C%9F%E5%AE%9E%E7%9A%84%E8%80%8C%E6%88%91%E4%BB%AC%E6%89%8D%E6%98%AF%E5%80%92%E5%BD%B1/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">如果镜子里的世界是真实的，而我们才是倒影？</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2025 Ditiemi Studio
+    </section>
+    
+    <section class="powerby">
+        
+            祝发现了这行字的你天天开心! <br/>
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.30.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/DS/ts/main.b18f5cc168e3d714115b61a9f45cc71646abad1defb2ea9a26f63f58085cbe8a.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+<script defer src="https://events.vercount.one/js"></script>
+
+<div id="particles-js"></div>
+<script src=https://ditiemi12345.github.io/DS/background/particles.min.js></script>
+<script>
+  particlesJS.load('particles-js', "https://ditiemi12345.github.io/DS/background/particlesjs-config.json", function() {
+    console.log('particles.js loaded - callback');
+  });
+</script>
+
+<style>
+  #particles-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+  }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script>
+<script>
+    var pjax = new Pjax({
+        selectors: [
+            ".main-container"
+        ]
+    })
+</script>
+<script>
+    pjax._handleResponse = pjax.handleResponse;
+    pjax.handleResponse = function(responseText, request, href, options) {
+        if (request.responseText.match("<html")) {
+            if (responseText) {
+                
+                let newDom = new DOMParser().parseFromString(responseText, 'text/html');
+                
+                let bodyClass = newDom.body.className;
+                document.body.setAttribute("class", bodyClass)
+            }
+            
+            pjax._handleResponse(responseText, request, href, options);
+        } else {
+            
+        }
+    }
+</script>
+<script>
+    document.addEventListener('pjax:send', () => {
+        
+        topbar.show();
+    })
+    document.addEventListener('pjax:complete', () => {
+        
+        window.Stack.init();
+        topbar.hide();
+    })
+</script>
+
+<style>
+    #TableOfContents > ul, ol {
+        ul, ol {
+            display: none;
+        }
+        .open {
+            display: block;
+        }
+    }
+</style>
+
+<script>
+    function initTocHide() {
+        
+        let toc = document.querySelector(".widget--toc");
+        if (!toc) {
+            return;
+        }
+        
+        window.addEventListener('scroll', function() {
+            
+            let openUl = document.querySelectorAll(".open");
+            if (openUl.length > 0) {
+              openUl.forEach((ul) => {
+                ul.classList.remove("open")
+              })
+            }
+            
+            let currentLi = document.querySelector(".active-class");
+            if (!currentLi) {
+                return
+            }
+            
+            if (currentLi.children.length > 1) {
+                currentLi.children[1].classList.add("open")
+            }
+            
+            let ul = currentLi.parentElement;
+            do {
+                ul.classList.add("open");
+                ul = ul.parentElement.parentElement
+            } while (ul !== undefined && (ul.localName === 'ul' || ul.localName === 'ol'))
+        });
+    }
+    initTocHide()
+</script>
+
+
+    
+    <script src=https://ditiemi12345.github.io/DS/js/topbar.min.js></script>
+
+<script>
+    
+    topbar.config({
+        barColors: {
+            '0': 'rgba(255,  255, 255, 1)', 
+            '1.0': 'rgba(0, 149, 234,  1)' 
+        }
+    })
+	
+    document.addEventListener('pjax:send', () => {
+        
+        topbar.show();
+    })
+	
+    document.addEventListener('pjax:complete', () => {
+        
+        
+        topbar.hide();
+    })
+</script>
+    </body>
+</html>

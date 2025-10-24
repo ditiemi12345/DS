@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>更新日志 on Ditiemi Studio</title>
+        <link>https://ditiemi12345.github.io/DS/categories/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/</link>
+        <description>Recent content in 更新日志 on Ditiemi Studio</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>Ditiemi Studio</copyright>
+        <lastBuildDate>Sun, 19 Oct 2025 21:00:00 +0800</lastBuildDate><atom:link href="https://ditiemi12345.github.io/DS/categories/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>新版本(v2.3)</title>
+        <link>https://ditiemi12345.github.io/DS/p/%E6%96%B0%E7%89%88%E6%9C%ACv2.3/</link>
+        <pubDate>Sun, 19 Oct 2025 21:00:00 +0800</pubDate>
+        
+        <guid>https://ditiemi12345.github.io/DS/p/%E6%96%B0%E7%89%88%E6%9C%ACv2.3/</guid>
+        <description>&lt;p&gt;&lt;em&gt;（本文章中，Ditiemi Studio将简写为DS）&lt;/em&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;网站的又一次小更新，本次更新更改了一些不重要的内容，主要任务是通过一次又一次的优化，让用户拥有更流畅的体验！&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;更新-v23&#34;&gt;更新-v2.3
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;功能&lt;/th&gt;
+          &lt;th&gt;内容&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;背景优化&lt;/td&gt;
+          &lt;td&gt;我们发现背景在概率中会引发网站的加载错误。因此我们优化了背景，更改了其颜色（现在颜色会更偏蓝，并且线条的连接点（小圆点）会按照随机的节奏闪烁，希望大家能够喜欢！&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;加载速度更优化&lt;/td&gt;
+          &lt;td&gt;我们修改了网页的部分源码，让网页更加流畅！&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;网页调查计划与网页Beta测试版计划&lt;/td&gt;
+          &lt;td&gt;在v2.2版本中，我们实行了“网页调查计划”和“网页Beta测试版计划”，目前收到了共3封的问卷调查，我们根据其反馈的信息进行了一系列的优化改进（主要内容包括颜色、UI细微调整和部分网页内容的调整），希望大家也能踊跃填写问卷，告诉我们您的想法！&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;评论、公告与其他功能&amp;hellip;&lt;/td&gt;
+          &lt;td&gt;我们还在调试在测试中表现并不理想的评论功能和其他未发布的一系列功能，我们也希望能够将这些功能尽快发布给大家，请大家耐心等待呀！&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;分支名称更改&lt;/td&gt;
+          &lt;td&gt;我们将分支&amp;quot;Ditiemi Topic B&amp;quot;更名为&amp;quot;Artbook&amp;quot;并将其移除&amp;quot;Ditiemi Topic&amp;quot;的小分支，成为独立的一个分支，主要内容包含画本的设定。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;您的每一次点击都意义非凡。DS 将坚持&lt;strong&gt;快速响应、持续优化&lt;/strong&gt;的原则，努力为大家奉上更优质的作品！&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;祝您愉快，&lt;/p&gt;
+&lt;p&gt;Ditiemi Studio&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>新版本(v2.2)</title>
+        <link>https://ditiemi12345.github.io/DS/p/%E6%96%B0%E7%89%88%E6%9C%ACv2.2/</link>
+        <pubDate>Mon, 15 Sep 2025 21:15:57 +0800</pubDate>
+        
+        <guid>https://ditiemi12345.github.io/DS/p/%E6%96%B0%E7%89%88%E6%9C%ACv2.2/</guid>
+        <description>&lt;p&gt;&lt;em&gt;（本文章中，Ditiemi Studio将简写为DS）&lt;/em&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;今天，我们迎来了网站的又一次小更新，本次更新同样也是一些小修小补，让用户体验更便捷流畅，希望通过一次又一次的优化，能给您带来更优秀的网站浏览体验！&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;更新-v22&#34;&gt;更新-v2.2
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;功能&lt;/th&gt;
+          &lt;th&gt;内容&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;看板娘暂时移除&lt;/td&gt;
+          &lt;td&gt;考虑到看板娘在加载和运行时会占用大量浏览器资源，从而导致网页加载缓慢。为此我们暂时移除了看板娘功能。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;加载速度优化&lt;/td&gt;
+          &lt;td&gt;我们能非常自豪地说，通过改动网页文件的部分内容，我们成功将网页速度提升至v2.0版本的2倍！现在，您几乎可以体验到网站创建以来最流畅的一个版本！&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;网页调查计划&lt;/td&gt;
+          &lt;td&gt;我们开始实行“网页调查计划”，如果您对网站有任何宝贵的建议或意见，随时欢迎您通过网站置顶的文章进行反馈。我们将认真阅读，优化网站，为您提供更好的体验！&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;网页Beta测试版计划&lt;/td&gt;
+          &lt;td&gt;我们开始实行“网页Beta测试版计划”，不管您想提前知道网站的规划，还是想为网站做出自己的一份力量，随时欢迎您通过网站置顶的文章进行报名。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;您的每一次点击都意义非凡。DS 将坚持&lt;strong&gt;快速响应、持续优化&lt;/strong&gt;的原则，努力为大家奉上更优质的作品！&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;祝您愉快，&lt;/p&gt;
+&lt;p&gt;Ditiemi Studio&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>新版本(v2.1)</title>
+        <link>https://ditiemi12345.github.io/DS/p/%E6%96%B0%E7%89%88%E6%9C%ACv2.1/</link>
+        <pubDate>Fri, 29 Aug 2025 19:46:13 +0800</pubDate>
+        
+        <guid>https://ditiemi12345.github.io/DS/p/%E6%96%B0%E7%89%88%E6%9C%ACv2.1/</guid>
+        <description>&lt;p&gt;&lt;em&gt;（本文章中，Ditiemi Studio将简写为DS）&lt;/em&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;今天，我们迎来了网站暑假的最后一次更新，本次更新更新内容不多，大部分都是一些小修小补。前几天，我们更新了v2.0版本，在用户的体验过程中，我们收到了不少反馈、意见与建议。所以，通过这次更新，想给大家带来更流畅更好用的使用体验！&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;更新-v21&#34;&gt;更新-v2.1
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;strong&gt;功能&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;内容&lt;/strong&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;进度条&lt;/td&gt;
+          &lt;td&gt;用户反馈：有时网页加载速度慢，点击网站内容时不知道自己点了与否。所以在本次更新中更新了进度条。您在点击网页任意跳转内容时（跳转到外部链接除外），您将在网页最顶部看到渐变的进度条，以反馈您的点击。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;看板娘bug修复&lt;/td&gt;
+          &lt;td&gt;v2.0更新之后，看板娘有时会出现卡顿、无法互动、闪现的bug，对此进行了修复。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;部分内容的修改与删除&lt;/td&gt;
+          &lt;td&gt;修改或删除了网站中部分内容，部分内容包括“关于”、文章及更新日志中的部分文本内容。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;其他&lt;/td&gt;
+          &lt;td&gt;优化了网页加载速度，优化了模型加载速度，修复了一些已知的bug。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;补充&#34;&gt;补充
+&lt;/h2&gt;&lt;p&gt;因为网页内容众多，所以相比于1.x版本，网页的加载速度有明显的缓慢，我们也会在未来持续优化，感谢大家的谅解！&lt;/p&gt;
+&lt;p&gt;在网站的未来，我们还将给所有分类加上图片，让您的阅览体验更上一层楼，但是因为个人问题，网页的更新速度可能会有所放缓，如给您带来不便，我们深表歉意！&lt;/p&gt;
+&lt;p&gt;另外，网站的未来规划还在制定中，如果大家有更好的建议/意见，欢迎大家通过电子邮件的方式发送到ditiemi622@outlook.com，我们会认真阅读每一篇邮件！&lt;/p&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;您的每一次点击都意义非凡。DS 将坚持&lt;strong&gt;快速响应、持续优化&lt;/strong&gt;的原则，努力为大家奉上更优质的作品！&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;祝您愉快，&lt;/p&gt;
+&lt;p&gt;Ditiemi Studio&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>重大更新(v2.0)</title>
+        <link>https://ditiemi12345.github.io/DS/p/%E9%87%8D%E5%A4%A7%E6%9B%B4%E6%96%B0v2.0/</link>
+        <pubDate>Thu, 21 Aug 2025 00:00:00 +0800</pubDate>
+        
+        <guid>https://ditiemi12345.github.io/DS/p/%E9%87%8D%E5%A4%A7%E6%9B%B4%E6%96%B0v2.0/</guid>
+        <description>&lt;img src="https://ditiemi12345.github.io/DS/p/%E9%87%8D%E5%A4%A7%E6%9B%B4%E6%96%B0v2.0/v2.png" alt="Featured image of post 重大更新(v2.0)" /&gt;&lt;blockquote&gt;
+&lt;p&gt;大家久等啦！今天，DS网站迎来了一次非常重大的更新！更新内容众多，深得大家的喜爱！同时，希望今天更新的内容符合大家的胃口，给大家带来更有趣更便捷的网页体验！那么下面就来介绍介绍本次的更新吧~&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;分类-与-相关文章&#34;&gt;#分类 与 相关文章
+&lt;/h2&gt;&lt;p&gt;现在，您可以在&lt;a class=&#34;link&#34; href=&#34;https://ditiemi12345.github.io/DS/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;主页&lt;/a&gt;右侧边栏”∞归档“功能下方发现一个新的功能：#分类。您可以在此快速查找同类型的文章（如D-M，D-S等），同时，我们删除了文章标题前的分支内容，换为每篇文章有着其对应的分类。&lt;/p&gt;
+&lt;p&gt;同时，我们在文章末尾增加了”相关文章“功能，该功能与”#分类“功能结合，在您预览完文章时，会为您推送几篇同类型的文章，我们相信这些功能的发布能够为您提供更好的使用体验。&lt;/p&gt;
+&lt;h2 id=&#34;文章内图片&#34;&gt;文章内图片
+&lt;/h2&gt;&lt;p&gt;我们感到非常高兴：我们可以在文章内添加图片了！在接下来的文章里，您将可以在文章内看到图片内容，我们相信能够让您更形象地理解内容。&lt;/p&gt;
+&lt;h2 id=&#34;二次元看板娘维护时间每月5日12日&#34;&gt;二次元看板娘（维护时间：每月5日~12日）
+&lt;/h2&gt;&lt;p&gt;二次元看板娘是本次更新地重头戏！在您进入网站时，可以看到网页左下角出现了一位二次元看板娘。您可以与其互动。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h3 id=&#34;看板娘-互动发言&#34;&gt;看板娘-互动发言
+&lt;/h3&gt;&lt;p&gt;在您的鼠标指针移至&lt;a class=&#34;link&#34; href=&#34;https://ditiemi12345.github.io/DS/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;一个链接&lt;/a&gt;上时，您会发现她能与相对应链接互动发言。当您的鼠标指针碰到以模型高度为边长的正方形区域时，看板娘也会与您的鼠标进行互动发言。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h3 id=&#34;看板娘-指针跟踪&#34;&gt;看板娘-指针跟踪
+&lt;/h3&gt;&lt;p&gt;看板娘会的眼睛会始终跟着鼠标指针的移动而移动。当您的鼠标指针碰到以模型高度为边长的正方形区域时，能够更好地体现出该效果。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h3 id=&#34;看板娘-右栏&#34;&gt;看板娘-右栏
+&lt;/h3&gt;&lt;p&gt;当您的鼠标指针碰到以模型高度为边长的正方形区域时，您会发现模型右侧出现了几个功能键。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h4 id=&#34;右栏-语录&#34;&gt;右栏-语录
+&lt;/h4&gt;&lt;p&gt;当您点击第一个功能键——语录时，看板娘会说出某些富有哲理的句子。该内容为联网寻找，当您在某一个句子停留一段时间后，会显示出该内容的出处&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h4 id=&#34;右栏-飞机游戏&#34;&gt;右栏-飞机游戏
+&lt;/h4&gt;&lt;p&gt;当您点击第二个功能键——飞机游戏时，您会发现网页左上方出现了一个飞机（锐角等腰三角形）您可以通过键盘上的方向键进行操控，空格为发射子弹。被子弹打到的内容会消失，您可以在右下角查看您的分数（每消失一个内容即可获得相应分数！），按Esc键可退出游戏，但如果想要继续浏览正常的网页，麻烦您刷新一下网页啦！&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h4 id=&#34;右栏-表情&#34;&gt;右栏-表情
+&lt;/h4&gt;&lt;p&gt;当您点击第三个功能键——表情时，看板娘的脸部可能发生表情的微妙变化。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h4 id=&#34;右栏-截图&#34;&gt;右栏-截图
+&lt;/h4&gt;&lt;p&gt;当您点击第四个功能键——截图时，网站将会下载一个看板娘目前状态的截图。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h4 id=&#34;右栏-退出&#34;&gt;右栏-退出
+&lt;/h4&gt;&lt;p&gt;当您点击第五个功能键——退出时，看板娘将会隐藏，您可以在网页左下角的”看板娘“按钮重新呼出看板娘。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h3 id=&#34;看板娘-未来计划&#34;&gt;看板娘-未来计划
+&lt;/h3&gt;&lt;p&gt;本次看板娘功能为公测版本。我们还在开发更多看板娘的模型与功能，将于后期陆续发布。更多细节还在调整中&amp;hellip;正式版也将在后期发布！正式版将带来更快的模型加载时长，更多的模型种类，大部分反馈的bug也将得到修复。感谢您的耐心等待！&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;更多内容&#34;&gt;更多内容
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;搜索功能优化&lt;/strong&gt;：本次更新后，搜索将会更快，更全面，更准确。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;目录功能更新&lt;/strong&gt;：本次更新后，目录支持更细分的小标题，小小标题。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;网页整体流畅性&lt;/strong&gt;：本次更新后，由于内容的突然增多，页面的加载速度可能有所下降。但我们同时提高了网页内容的单体加载速度，如果给您带来不便，我们深表歉意！&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;其他&lt;/strong&gt;：优化了一些已知的bug。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;因为是一次有着很多新内容的更新，所以网页的稳定性必然有所下降。如果您有任何意见、建议，我们都期待着您通过邮件的方式发送到ditiemi622@outlook.com，感谢您的反馈，我们将认真阅读每一篇邮件！同时，由于后期的个人问题，我们将放缓内容更新的频率并取消”周总结“的编写，我们感到非常抱歉，但是我们仍然会更新更多优质的作品，敬请期待！&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;祝您愉快，&lt;/p&gt;
+&lt;p&gt;Ditiemi Studio&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>新版本(v1.2)与周总结</title>
+        <link>https://ditiemi12345.github.io/DS/p/%E6%96%B0%E7%89%88%E6%9C%ACv1.2%E4%B8%8E%E5%91%A8%E6%80%BB%E7%BB%93/</link>
+        <pubDate>Fri, 08 Aug 2025 13:05:34 +0800</pubDate>
+        
+        <guid>https://ditiemi12345.github.io/DS/p/%E6%96%B0%E7%89%88%E6%9C%ACv1.2%E4%B8%8E%E5%91%A8%E6%80%BB%E7%BB%93/</guid>
+        <description>&lt;p&gt;&lt;em&gt;（本文章中，Ditiemi Studio将简写为DS）&lt;/em&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;又是一个星期过去啦！这个星期，我们走进了我与《糖豆人》的坎坷回忆，还与大家探讨了神秘的话题&amp;hellip;今天，网站再次迎来了小更新（v1.2）！这篇文章中，不仅会介绍本次小更新的所有内容，也会记录上本网站的周总结！&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;更新-v12&#34;&gt;更新-v1.2
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;功能&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;内容&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;分支调整&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;将“Ditiemi Book”与“Ditiemi Video”两个分支删除，新增分支“Ditiemi Topic”，其中包含小分支“TopicA”与&amp;quot;TopicB&amp;quot;负责相应的内容。详细调整情况请移步至&lt;a class=&#34;link&#34; href=&#34;https://ditiemi12345.github.io/DS/%e5%85%b3%e4%ba%8e/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;关于&lt;/a&gt;。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;阅读时间&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;“阅读时间”功能回归！此次更新优化了阅读时间算法，使阅读时间更精准（阅读时间仅供参考）。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;文章封面&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;如8月4日发布的文章《我与《糖豆人》的故事》的封面图片。此次更新后，在文章发布时，可以插入图片作为封面。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;网页标志&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;您可以在此次更新后的网页标签标题前看到DS的圆形符号。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;其他&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;修复有时点击文章却没有跳转至文章主内容的问题；修复了有时“深色模式”不可用的问题；修改了部分文章内容。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;文章单页计数&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;考虑到网页后续的发展，文章将会越来越多。所以网站加入了“文章单页计数”。在主页下方您将会看到一个页数条，点击相应的页数条将跳转到不同的主页文章，每页至多显示5篇文章。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;周总结82-88&#34;&gt;周总结（8.2-8.8）
+&lt;/h2&gt;&lt;h3 id=&#34;-成长里程碑&#34;&gt;&lt;strong&gt;🚀 成长里程碑&lt;/strong&gt;
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;不亚于上周的成绩，我们很荣幸在这周收获了&lt;strong&gt;170+次的访问&lt;/strong&gt;！感谢大家对网站的大力支持！&lt;/li&gt;
+&lt;li&gt;不计本文章，本周发表了&lt;strong&gt;3篇文章&lt;/strong&gt;！与上周不同，这次发表的文章分别是D-S、D-M与新分支D-TA的各一篇文章！希望新的分支，新的主题，能够让大家眼前一亮呀！&lt;/li&gt;
+&lt;li&gt;文章图片封面的支持让大家能够更快速地了解到文章的主要内容！&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-总结洞察目标&#34;&gt;&lt;strong&gt;💡 总结&amp;amp;洞察&amp;amp;目标&lt;/strong&gt;
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;由于新功能文章图片封面的原因，网页初次加载的速度延长了许多（约2~5秒左右）！我们会在之后努力优化，带给大家更好的浏览体验！希望大家能够谅解！&lt;/li&gt;
+&lt;li&gt;优化后的“搜索”功能仍存在搜索时间不稳定（搜索时间在0.8秒至0.0015秒的区间徘徊），容易造成网页卡顿的问题。如果给您带来不便，我们深表歉意！&lt;/li&gt;
+&lt;li&gt;“&lt;strong&gt;文章浏览数&lt;/strong&gt;”功能还正在研发中，目前在计数方面还有一些问题，正在努力完善，希望大家能够耐心等待&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;您的每一次点击都意义非凡。DS 将坚持&lt;strong&gt;快速响应、持续优化&lt;/strong&gt;的原则，努力为大家奉上更优质的作品！&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;祝您愉快，&lt;/p&gt;
+&lt;p&gt;Ditiemi Studio&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>新版本(v1.1)与周总结</title>
+        <link>https://ditiemi12345.github.io/DS/p/%E6%96%B0%E7%89%88%E6%9C%ACv1.1%E4%B8%8E%E5%91%A8%E6%80%BB%E7%BB%93/</link>
+        <pubDate>Fri, 01 Aug 2025 00:00:00 +0800</pubDate>
+        
+        <guid>https://ditiemi12345.github.io/DS/p/%E6%96%B0%E7%89%88%E6%9C%ACv1.1%E4%B8%8E%E5%91%A8%E6%80%BB%E7%BB%93/</guid>
+        <description>&lt;p&gt;&lt;em&gt;（本文章中，Ditiemi Studio将简写为DS）&lt;/em&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;从7月26日正式开放DS网站以来，已经过去了7天的时间！在这7天的时间里，本网站从诞生到逐渐发展，都离不开大家的支持！今天，本网站迎来了第一次小更新（v1.1）！这篇文章中，不仅会介绍本次小更新的所有内容，也会记录上本网站的周总结！&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;更新-v11&#34;&gt;更新-v1.1
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;功能&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;内容&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;关于&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;完善该界面及其功能，”关于“界面中的文章主要包含了欢迎词、DS分支及其主要负责内容、网站的注意事项以及我想说的话等。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;背景&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;网页背景不再黑白单调，加上了蓝紫色的点线组合，电脑端配合鼠标的移动，效果可能会更为明显。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Emoji&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;网页支持了全部的Emoji表情，在这次更新中，也在已发布的文章以及关于界面中加入了部分Emoji表情。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;无刷新加载页面&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;利用PJAX技术，使您在切换页面时，不会刷新页面，导致卡顿的状况。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;加载动画&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;在您打开网站时，如果信号卡顿或者加载缓慢，会出现白底和灰色加载动画，您只需要稍作等待即可。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Github&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;头像下方的一个Github图标，点击即可进入DS的Github页面。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;目录&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;在文章主题右侧的”#目录“功能，点击其中的小标题即可跳转到小标题所对的内容。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;其他&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;更改了页面底部的内容；更改头像下方灰字内容；部分页面显示英文已转为中文；修复文章底部概率显示代码的问题；更改文章发布日期的格式；修改了部分文章内容。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;优化&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;优化了网页加载排版，主题与内容的速度。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;删除的内容&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;删除了阅读时间功能，友链界面，（暂时）评论功能。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;周总结726-81&#34;&gt;周总结（7.26-8.1）
+&lt;/h2&gt;&lt;p&gt;&lt;em&gt;其实这次小更新感觉也能叫大更新了哈哈哈哈，以后的小更新内容可能没有那么多，请大家见谅。&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id=&#34;-成长里程碑&#34;&gt;&lt;strong&gt;🚀 成长里程碑&lt;/strong&gt;
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;上周我们很荣幸收获到了&lt;strong&gt;150+次的访问&lt;/strong&gt;，收到了&lt;strong&gt;2条用户体验反馈&lt;/strong&gt;，感谢大家为v1.1更新指明了方向！&lt;/li&gt;
+&lt;li&gt;不计本文章，本周共发表了&lt;strong&gt;2篇文章&lt;/strong&gt;！分别是D-M与D-D分支的分别一篇文章！感谢大家给予我的创作力量！&lt;/li&gt;
+&lt;li&gt;借助了一些插件，使界面的加载时间平均&lt;strong&gt;下降了30%左右&lt;/strong&gt;（2.1s → 1.4s）！&lt;/li&gt;
+&lt;li&gt;支持的Emoji表情给文章内容带来了&lt;strong&gt;更多的乐趣&lt;/strong&gt;！&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-总结洞察目标&#34;&gt;&lt;strong&gt;💡 总结&amp;amp;洞察&amp;amp;目标&lt;/strong&gt;
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;删除的“评论”功能因功能未完善暂时下线，预计在&lt;strong&gt;后续更新&lt;/strong&gt;以更强的形态回归。&lt;/li&gt;
+&lt;li&gt;删除的“阅读时间”功能因为算法不精准，可能会导致误导而暂时下线，预计在重新调整时间算法后在&lt;strong&gt;下个更新&lt;/strong&gt;中回归。&lt;/li&gt;
+&lt;li&gt;“搜索”功能有时还会出现搜索时间慢，搜不出结果，搜索后重新加载搜索界面的问题，我们将重视此问题，在&lt;strong&gt;下个更新&lt;/strong&gt;中修复！&lt;/li&gt;
+&lt;li&gt;深色模式切换有时会出现切换不了，卡顿的情况、会在&lt;strong&gt;下个更新&lt;/strong&gt;中改善；移动端背景动效适配也列入了开发路线图。&lt;/li&gt;
+&lt;li&gt;在Beta版测试中的“&lt;strong&gt;文章浏览数&lt;/strong&gt;”功能并未取得完满成功，存在一定的问题，我们还在努力完善中，发布时间未定。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;您的每一次点击都意义非凡。DS 将坚持&lt;strong&gt;快速响应、持续优化&lt;/strong&gt;的原则，努力为大家奉上更优质的作品！&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;祝您愉快，&lt;/p&gt;
+&lt;p&gt;Ditiemi Studio&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
