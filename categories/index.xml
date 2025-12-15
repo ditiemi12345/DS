@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Categories on Ditiemi Site</title>
+        <link>https://ditiemi12345.github.io/DS/categories/</link>
+        <description>Recent content in Categories on Ditiemi Site</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>Ditiemi Studio</copyright>
+        <lastBuildDate>Mon, 15 Dec 2025 10:48:53 +0800</lastBuildDate><atom:link href="https://ditiemi12345.github.io/DS/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Ditiemi Music</title>
+        <link>https://ditiemi12345.github.io/DS/categories/ditiemi-music/</link>
+        <pubDate>Mon, 15 Dec 2025 10:48:53 +0800</pubDate>
+        
+        <guid>https://ditiemi12345.github.io/DS/categories/ditiemi-music/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>更新日志</title>
+        <link>https://ditiemi12345.github.io/DS/categories/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/</link>
+        <pubDate>Thu, 20 Nov 2025 00:00:00 +0800</pubDate>
+        
+        <guid>https://ditiemi12345.github.io/DS/categories/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Ditiemi Daily</title>
+        <link>https://ditiemi12345.github.io/DS/categories/ditiemi-daily/</link>
+        <pubDate>Fri, 24 Oct 2025 00:00:00 +0800</pubDate>
+        
+        <guid>https://ditiemi12345.github.io/DS/categories/ditiemi-daily/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Artbook</title>
+        <link>https://ditiemi12345.github.io/DS/categories/artbook/</link>
+        <pubDate>Mon, 29 Sep 2025 23:10:31 +0800</pubDate>
+        
+        <guid>https://ditiemi12345.github.io/DS/categories/artbook/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Ditiemi Topic A</title>
+        <link>https://ditiemi12345.github.io/DS/categories/ditiemi-topic-a/</link>
+        <pubDate>Tue, 23 Sep 2025 00:04:09 +0800</pubDate>
+        
+        <guid>https://ditiemi12345.github.io/DS/categories/ditiemi-topic-a/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Ditiemi Speech</title>
+        <link>https://ditiemi12345.github.io/DS/categories/ditiemi-speech/</link>
+        <pubDate>Sat, 06 Sep 2025 18:42:04 +0800</pubDate>
+        
+        <guid>https://ditiemi12345.github.io/DS/categories/ditiemi-speech/</guid>
+        <description>&lt;img src="https://ditiemi12345.github.io/DS/categories/ditiemi-speech/111.png" alt="Featured image of post Ditiemi Speech" /&gt;</description>
+        </item>
+        <item>
+        <title>Test</title>
+        <link>https://ditiemi12345.github.io/DS/categories/test/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://ditiemi12345.github.io/DS/categories/test/</guid>
+        <description>&lt;img src="https://ditiemi12345.github.io/DS/categories/test/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post Test" /&gt;</description>
+        </item>
+        
+    </channel>
+</rss>

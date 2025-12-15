@@ -1,0 +1,1071 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content=" 今天我们就来聊聊四个字母：MBTI！这四个字母大家应该都熟知，今天咱就轻松唠唠MBTI，像朋友聊天那样——不带复杂专业的术语，不整复杂的，就说说这玩意儿为啥火，大家为啥又爱又“恨”它！\n">
+<title>四个字母：MBTI</title>
+
+<link rel='canonical' href='https://ditiemi12345.github.io/DS/p/%E5%9B%9B%E4%B8%AA%E5%AD%97%E6%AF%8Dmbti/'>
+
+<link rel="stylesheet" href="/DS/scss/style.min.9adf493b978dea57d673fa1e412f15d34fe3a6a6ad19cf68d046d6c39b9ab9d1.css"><meta property='og:title' content="四个字母：MBTI">
+<meta property='og:description' content=" 今天我们就来聊聊四个字母：MBTI！这四个字母大家应该都熟知，今天咱就轻松唠唠MBTI，像朋友聊天那样——不带复杂专业的术语，不整复杂的，就说说这玩意儿为啥火，大家为啥又爱又“恨”它！\n">
+<meta property='og:url' content='https://ditiemi12345.github.io/DS/p/%E5%9B%9B%E4%B8%AA%E5%AD%97%E6%AF%8Dmbti/'>
+<meta property='og:site_name' content='Ditiemi Site'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-08-10T15:58:17&#43;08:00'/><meta property='article:modified_time' content='2025-08-10T15:58:17&#43;08:00'/><meta property='og:image' content='https://ditiemi12345.github.io/DS/p/%E5%9B%9B%E4%B8%AA%E5%AD%97%E6%AF%8Dmbti/MBTI.png' />
+<meta name="twitter:title" content="四个字母：MBTI">
+<meta name="twitter:description" content=" 今天我们就来聊聊四个字母：MBTI！这四个字母大家应该都熟知，今天咱就轻松唠唠MBTI，像朋友聊天那样——不带复杂专业的术语，不整复杂的，就说说这玩意儿为啥火，大家为啥又爱又“恨”它！\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://ditiemi12345.github.io/DS/p/%E5%9B%9B%E4%B8%AA%E5%AD%97%E6%AF%8Dmbti/MBTI.png' />
+    <link rel="shortcut icon" href="/DS/favicon.ico" />
+<div class="loading">
+        <div class="loader"></div>
+</div>
+</div>
+
+<style>
+    .loading {
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 99;
+        background-color: #f5f5fa;
+    }
+	  
+.loader {
+  display: block;
+  --height-of-loader: 4px;
+  --loader-color: #0071e2;
+  width: 130px;
+  height: var(--height-of-loader);
+  border-radius: 30px;
+  background-color: rgba(0,0,0,0.2);
+  position: relative;
+}
+
+.loader::before {
+  content: "";
+  position: absolute;
+  background: var(--loader-color);
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  border-radius: 30px;
+  animation: moving 1s ease-in-out infinite;
+  ;
+}
+
+@keyframes moving {
+  50% {
+    width: 100%;
+  }
+
+  100% {
+    width: 0;
+    right: 0;
+    left: unset;
+  }
+}
+</style>
+
+<script>	
+    function initLoading() {
+        let loading = document.querySelector(".loading");
+        document.addEventListener('DOMContentLoaded', function() {
+            
+            loading.style.display = "none";
+        });
+    }
+
+    initLoading();
+</script>
+
+
+<html>
+<head>
+ 
+</head>
+<body>
+<script>
+function clickEffect() {
+  let balls = [];
+  let longPressed = false;
+  let longPress;
+  let multiplier = 0;
+  let width, height;
+  let origin;
+  let normal;
+  let ctx;
+  const colours = ["#FFEBBD", "#D3FFBD", "#BDE0FF", "#FFBDBD", "#DFCDFF"];
+  const canvas = document.createElement("canvas");
+  document.body.appendChild(canvas);
+  canvas.setAttribute("style", "width: 100%; height: 100%; top: 0; left: 0; z-index: 99999; position: fixed; pointer-events: none;");
+  const pointer = document.createElement("span");
+  pointer.classList.add("pointer");
+  document.body.appendChild(pointer);
+ 
+  if (canvas.getContext && window.addEventListener) {
+    ctx = canvas.getContext("2d");
+    updateSize();
+    window.addEventListener('resize', updateSize, false);
+    loop();
+    window.addEventListener("mousedown", function(e) {
+      pushBalls(randBetween(10, 20), e.clientX, e.clientY);
+      document.body.classList.add("is-pressed");
+      longPress = setTimeout(function(){
+        document.body.classList.add("is-longpress");
+        longPressed = true;
+      }, 500);
+    }, false);
+    window.addEventListener("mouseup", function(e) {
+      clearInterval(longPress);
+      if (longPressed == true) {
+        document.body.classList.remove("is-longpress");
+        pushBalls(randBetween(50 + Math.ceil(multiplier), 100 + Math.ceil(multiplier)), e.clientX, e.clientY);
+        longPressed = false;
+      }
+      document.body.classList.remove("is-pressed");
+    }, false);
+    window.addEventListener("mousemove", function(e) {
+      let x = e.clientX;
+      let y = e.clientY;
+      pointer.style.top = y + "px";
+      pointer.style.left = x + "px";
+    }, false);
+  } else {
+    console.log("canvas or addEventListener is unsupported!");
+  }
+ 
+ 
+  function updateSize() {
+    canvas.width = window.innerWidth * 2;
+    canvas.height = window.innerHeight * 2;
+    canvas.style.width = window.innerWidth + 'px';
+    canvas.style.height = window.innerHeight + 'px';
+    ctx.scale(2, 2);
+    width = (canvas.width = window.innerWidth);
+    height = (canvas.height = window.innerHeight);
+    origin = {
+      x: width / 2,
+      y: height / 2
+    };
+    normal = {
+      x: width / 2,
+      y: height / 2
+    };
+  }
+  class Ball {
+    constructor(x = origin.x, y = origin.y) {
+      this.x = x;
+      this.y = y;
+      this.angle = Math.PI * 2 * Math.random();
+      if (longPressed == true) {
+        this.multiplier = randBetween(14 + multiplier, 15 + multiplier);
+      } else {
+        this.multiplier = randBetween(6, 12);
+      }
+      this.vx = (this.multiplier + Math.random() * 0.5) * Math.cos(this.angle);
+      this.vy = (this.multiplier + Math.random() * 0.5) * Math.sin(this.angle);
+      this.r = randBetween(8, 12) + 3 * Math.random();
+      this.color = colours[Math.floor(Math.random() * colours.length)];
+    }
+    update() {
+      this.x += this.vx - normal.x;
+      this.y += this.vy - normal.y;
+      normal.x = -2 / window.innerWidth * Math.sin(this.angle);
+      normal.y = -2 / window.innerHeight * Math.cos(this.angle);
+      this.r -= 0.3;
+      this.vx *= 0.9;
+      this.vy *= 0.9;
+    }
+  }
+ 
+  function pushBalls(count = 1, x = origin.x, y = origin.y) {
+    for (let i = 0; i < count; i++) {
+      balls.push(new Ball(x, y));
+    }
+  }
+ 
+  function randBetween(min, max) {
+    return Math.floor(Math.random() * max) + min;
+  }
+ 
+  function loop() {
+    ctx.fillStyle = "rgba(255, 255, 255, 0)";
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    for (let i = 0; i < balls.length; i++) {
+      let b = balls[i];
+      if (b.r < 0) continue;
+      ctx.fillStyle = b.color;
+      ctx.beginPath();
+      ctx.arc(b.x, b.y, b.r, 0, Math.PI * 2, false);
+      ctx.fill();
+      b.update();
+    }
+    if (longPressed == true) {
+      multiplier += 0.2;
+    } else if (!longPressed && multiplier >= 0) {
+      multiplier -= 0.4;
+    }
+    removeBall();
+    requestAnimationFrame(loop);
+  }
+ 
+  function removeBall() {
+    for (let i = 0; i < balls.length; i++) {
+      let b = balls[i];
+      if (b.x + b.r < 0 || b.x - b.r > width || b.y + b.r < 0 || b.y - b.r > height || b.r < 0) {
+        balls.splice(i, 1);
+      }
+    }
+  }
+}
+clickEffect();
+</script>
+</body>
+</html>
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "light");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/DS/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/DS/img/avatar_hu_355d685d9ee0b8c8.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/DS">Ditiemi Site</a></h1>
+            <h2 class="site-description">v3.0.0</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://github.com/ditiemi12345/DS'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/DS/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/DS/%E5%85%B3%E4%BA%8E/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/DS/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>档案</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/DS/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>暗色模式</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#你mbti是啥突然火了">🔥“你MBTI是啥？“突然火了？</a></li>
+    <li><a href="#mbti到底该玩啥">🎨MBTI到底该玩啥？</a></li>
+    <li><a href="#有人吐槽它不靠谱">💭有人吐槽它“不靠谱”？</a></li>
+    <li><a href="#到底咋用咱清醒点">🔑到底咋用？咱清醒点！</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/DS/p/%E5%9B%9B%E4%B8%AA%E5%AD%97%E6%AF%8Dmbti/">
+                <img src="/DS/p/%E5%9B%9B%E4%B8%AA%E5%AD%97%E6%AF%8Dmbti/MBTI_hu_993d1464743cf3dc.png"
+                        srcset="/DS/p/%E5%9B%9B%E4%B8%AA%E5%AD%97%E6%AF%8Dmbti/MBTI_hu_993d1464743cf3dc.png 800w, /DS/p/%E5%9B%9B%E4%B8%AA%E5%AD%97%E6%AF%8Dmbti/MBTI_hu_6be19e64b7be9570.png 1600w"
+                        width="800" 
+                        height="443" 
+                        loading="lazy"
+                        alt="Featured image of post 四个字母：MBTI" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/DS/categories/ditiemi-topic-a/" >
+                Ditiemi Topic A
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/DS/p/%E5%9B%9B%E4%B8%AA%E5%AD%97%E6%AF%8Dmbti/">四个字母：MBTI</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">2025.08.10</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 3 分钟
+                </time>
+            </div>
+        
+       <div id="viewCount">
+            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-eye"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" /><path d="M21 12c-2.4 4 -5.4 6 -9 6c-3.6 0 -6.6 -2 -9 -6c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6" /></svg>
+            <time class="article-time--reading">
+                
+                <span id="vercount_value_page_pv">loading... </span>次
+            </time>
+        </div>
+    </footer>
+    
+
+    
+</div>
+</header>
+
+    <section class="article-content">
+    
+    
+    <blockquote>
+<p>今天我们就来聊聊四个字母：MBTI！这四个字母大家应该都熟知，今天咱就轻松唠唠MBTI，像朋友聊天那样——不带复杂专业的术语，不整复杂的，就说说这玩意儿为啥火，大家为啥又爱又“恨”它！</p></blockquote>
+<hr>
+<h2 id="你mbti是啥突然火了">🔥“你MBTI是啥？“突然火了？
+</h2><p>MBTI最近几年突然出现在人们的日常中，其中人们最熟知的应该就是”I人“和”E人“。可是，<strong>为什么突然就火起来了呢</strong>？</p>
+<ul>
+<li>
+<p><strong>社交神器！<strong>如果你想非常快速的了解一个人的大致性格，就来一句”你测过MBTI嘛“，<strong>瞬间挑起话题</strong>！社交冷场？别怕，一句“我是ENFP，你呢？”<strong>秒破冰</strong>！还能迅速</strong>找到“同类”</strong>：“哇你也是INFP？咱俩一起宅吧！”。</p>
+</li>
+<li>
+<p><strong>简单粗暴好上手！<strong>比起星座运势、生日表象等等，做套题它就能给你个酷炫的</strong>四字母组合</strong>，瞬间感觉“<strong>看透了自己</strong>”，不用去了解太多复杂难记的东西啦！</p>
+</li>
+<li>
+<p>**基本全是“好话”！**INFJ——深沉有理想！ESTP——行动力爆棚！谁不爱听，比星座说“你本周水逆”<strong>舒服多了</strong>😂！</p>
+</li>
+</ul>
+<h2 id="mbti到底该玩啥">🎨MBTI到底该玩啥？
+</h2><ul>
+<li>
+<p><strong>标签找归属：</strong> 就像追星座、血型一样，想给自己归个类。“哦原来我这样叫INFP，网上好多同类！”——<strong>瞬间不孤单了</strong>。</p>
+</li>
+<li>
+<p><strong>解释自己的“怪癖”：</strong> “我社恐？因为我是I人啊！”“我拖延？P人本性！”——瞬间<strong>原谅自己</strong>，还能<strong>理直气壮</strong>（别学，容易躺平😂）。</p>
+</li>
+<li>
+<p><strong>吐槽：</strong> 梗图满天飞！“J人旅行计划表 VS P人说走就走” “INTJ：人类的愚蠢让我窒息”——我不行了，<strong>精准扎心</strong>！</p>
+</li>
+</ul>
+<h2 id="有人吐槽它不靠谱">💭有人吐槽它“不靠谱”？
+</h2><ul>
+<li><strong>今天INFP，明天变ENTJ？</strong> 很多人测几次结果不一样！心情开朗变E人，emo了变I人……这分类好像<strong>有点飘</strong>？</li>
+<li><strong>刻板印象太强了！</strong> 一说到“INTP”就是书呆子，“ESFP”就是派对狂魔……现实里人哪有这么简单？<strong>强行对号入座反而忽略真实个性</strong>。</li>
+<li><strong>容易变“借口生成器”：</strong> “我是I人，所以拒绝社交！”“我是F人，所以不讲逻辑！”——好家伙，<strong>MBTI直接背锅</strong>😂</li>
+</ul>
+<h2 id="到底咋用咱清醒点">🔑到底咋用？咱清醒点！
+</h2><ul>
+<li><strong>当个“社交玩具”，别当真！</strong> 就像星座一样，图一乐，找共鸣，开开玩笑没问题。</li>
+<li><strong>别让它定义你！</strong> 你是活生生的一个人，不是四个字母。别说什么“因为我是XX型，所以我不能/不会……”——<strong>你比标签复杂多了</strong>！</li>
+<li><strong>理解差异的小工具：</strong> 知道朋友是“J人”（计划狂），就别临时放Ta鸽子；同事是“P人”（随性派），催Ta deadline 得提前三天——<strong>互相理解，做到Peace &amp; Love！</strong></li>
+</ul>
+<hr>
+<p><strong>咱的态度：</strong>✅ 玩梗  ✅ 交友破冰好用！  ✅ 拿它夸自己行！  ❌ 别限制自己！ ❌ 别歧视他人！  ❌ 别当真科学！</p>
+<blockquote>
+<p>说了这些之后，你是否对MBTI有了更有趣，更好玩的认识呢？不过要记得，那只是你的基本性格，更细微的你&hellip;还是你来做主！轻松了解，开心就好！ 😊</p></blockquote>
+<p>祝您愉快，</p>
+<p>Ditiemi Studio</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>内容许可证：CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/DS/p/%E8%AE%B0%E5%BF%86%E5%8F%AF%E4%BB%A5%E5%83%8F%E7%94%B5%E8%84%91%E6%96%87%E4%BB%B6%E4%B8%80%E6%A0%B7%E8%A2%AB%E6%A0%BC%E5%BC%8F%E5%8C%96%E5%90%97/">
+        
+        
+            <div class="article-image">
+                <img src="/DS/p/%E8%AE%B0%E5%BF%86%E5%8F%AF%E4%BB%A5%E5%83%8F%E7%94%B5%E8%84%91%E6%96%87%E4%BB%B6%E4%B8%80%E6%A0%B7%E8%A2%AB%E6%A0%BC%E5%BC%8F%E5%8C%96%E5%90%97/omh.86025bcfcdf9de494fff6d7c72675092_hu_e01aba943d859a4b.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 记忆可以像电脑文件一样被格式化吗？"
+                        
+                        data-hash="md5-hgJbz8353klP/218cmdQkg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">记忆可以像电脑文件一样被格式化吗？</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/DS/p/%E6%97%B6%E9%97%B4%E5%8F%AF%E4%BB%A5%E5%83%8F%E8%B4%A7%E5%B8%81%E4%B8%80%E6%A0%B7%E4%BA%A4%E6%98%93/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">时间可以像货币一样交易？</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/DS/p/%E5%A6%82%E6%9E%9C%E9%95%9C%E5%AD%90%E9%87%8C%E7%9A%84%E4%B8%96%E7%95%8C%E6%98%AF%E7%9C%9F%E5%AE%9E%E7%9A%84%E8%80%8C%E6%88%91%E4%BB%AC%E6%89%8D%E6%98%AF%E5%80%92%E5%BD%B1/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">如果镜子里的世界是真实的，而我们才是倒影？</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <div class="comment"></div>
+
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2025 Ditiemi Studio
+    </section>
+    
+    <section class="powerby">
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+       
+        <p>发布了 31 篇文章 | 共 35179 字</p>
+       <span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
+<script language="javascript"> 
+    var now = new Date();
+    function createtime(){
+        now.setTime(now.getTime()+250); 
+        var grt= new Date("2025/07/26 21:40:11"); 
+        days = (now - grt ) / 1000 / 60 / 60 / 24;
+        dnum = Math.floor(days);
+        hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum);
+        hnum = Math.floor(hours);
+        if(String(hnum).length ==1 ){hnum = "0" + hnum;}
+        minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);
+        mnum = Math.floor(minutes);
+        if(String(mnum).length ==1 ){mnum = "0" + mnum;}
+        seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
+        snum = Math.round(seconds);
+        if(String(snum).length ==1 ){snum = "0" + snum;}
+        document.getElementById("timeDate").innerHTML = "本站已运行 "+dnum+" 天 ";
+        document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒"
+    }
+    setInterval("createtime()",250); 
+</script> 
+<br>
+        
+            网站会一直陪伴着你的！祝你天天开心！ <br/>
+        
+    
+<br>使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.30.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/DS/ts/main.b18f5cc168e3d714115b61a9f45cc71646abad1defb2ea9a26f63f58085cbe8a.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+<script defer src="https://events.vercount.one/js"></script>
+
+
+<style>
+  [data-scheme="light"] {
+  body{
+    background: url(https://ditiemi12345.github.io/DS/background/image.png) no-repeat center top;
+    background-size: cover;
+    background-attachment: fixed;}}
+</style>
+
+
+<div id="particles-js"></div>
+<script src=https://ditiemi12345.github.io/DS/background/particles.min.js></script>
+<script>
+  particlesJS.load('particles-js', "https://ditiemi12345.github.io/DS/background/particlesjs-config.json", function() {
+    console.log('particles.js loaded - callback');
+  });	
+</script>
+
+<style>
+  #particles-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+  }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script>
+<script>
+    var pjax = new Pjax({
+        selectors: [
+            ".main-container"
+        ]
+    })
+</script>
+<script>
+    pjax._handleResponse = pjax.handleResponse;
+    pjax.handleResponse = function(responseText, request, href, options) {
+        if (request.responseText.match("<html")) {
+            if (responseText) {
+                
+                let newDom = new DOMParser().parseFromString(responseText, 'text/html');
+                
+                let bodyClass = newDom.body.className;
+                document.body.setAttribute("class", bodyClass)
+            }
+            
+            pjax._handleResponse(responseText, request, href, options);
+        } else {
+            
+        }
+    }
+</script>
+<script>
+    document.addEventListener('pjax:send', () => {
+        
+        topbar.show();
+    })
+    document.addEventListener('pjax:complete', () => {
+        
+        window.Stack.init();
+        topbar.hide();
+    })
+</script>
+
+<style>
+    #TableOfContents > ul, ol {
+        ul, ol {
+            display: none;
+        }
+        .open {
+            display: block;
+        }
+    }
+</style>
+
+<script>
+    function initTocHide() {
+        
+        let toc = document.querySelector(".widget--toc");
+        if (!toc) {
+            return;
+        }
+        
+        window.addEventListener('scroll', function() {
+            
+            let openUl = document.querySelectorAll(".open");
+            if (openUl.length > 0) {
+              openUl.forEach((ul) => {
+                ul.classList.remove("open")
+              })
+            }
+            
+            let currentLi = document.querySelector(".active-class");
+            if (!currentLi) {
+                return
+            }
+            
+            if (currentLi.children.length > 1) {
+                currentLi.children[1].classList.add("open")
+            }
+            
+            let ul = currentLi.parentElement;
+            do {
+                ul.classList.add("open");
+                ul = ul.parentElement.parentElement
+            } while (ul !== undefined && (ul.localName === 'ul' || ul.localName === 'ol'))
+        });
+    }
+    initTocHide()
+</script>
+
+
+    
+    <script src=https://ditiemi12345.github.io/DS/js/topbar.min.js></script>
+
+<script>
+    
+    topbar.config({
+        barColors: {
+            '0': 'rgba(255,  255, 255, 1)', 
+            '1.0': 'rgba(0, 149, 234,  1)' 
+        }
+    })
+	
+    document.addEventListener('pjax:send', () => {
+        
+        topbar.show();
+    })
+	
+    document.addEventListener('pjax:complete', () => {
+        
+        
+        topbar.hide();
+    })
+</script>
+<script>
+    function showHideView() {
+        
+        let viewCounts = document.querySelectorAll("#viewCount");
+        if (viewCounts) {
+            
+            let article =  document.querySelector(".article-page");
+            if (!article) {
+                viewCounts.forEach(ele => {
+                    ele.style.display = 'none';
+                });
+            }
+        }
+    }
+    
+    showHideView();
+</script>
+
+    </body>
+</html>
